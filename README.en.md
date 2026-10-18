@@ -27,7 +27,7 @@ use Wop\Sdk\Transport\CurlTransport;
 
 $client = new WopClient(new WopConfig(
     appKey:         'app_10012481831',
-    securityReq:    'WOP-RSA3072-SHA256',
+    securityReq:    'WOP-RSA2048-SHA256',
     privateKey:     $merchantPrivateKeyPemOrBase64,   // own private key (outbound signing / inbound DEK unwrap)
     peerPublicKey:  $platformPublicKeyPemOrBase64,    // platform public key (verify responses / wrap DEK)
 ));
