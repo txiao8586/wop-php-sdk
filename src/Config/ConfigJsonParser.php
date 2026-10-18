@@ -130,7 +130,7 @@ final class ConfigJsonParser
                         $read = $this->readInt('httpClient.readTimeout');
                         break;
                     case 'maxRetryCount':
-                        $maxRetry = $this->readInt('httpClient.maxRetryCount');
+                        $maxRetry = $this->readInt('httpClient.maxRetryCount', true);
                         break;
                     default:
                         $this->skipValue();
@@ -218,8 +218,8 @@ final class ConfigJsonParser
         return mb_chr((int) hexdec($hex), 'UTF-8');
     }
 
-        /** 读取整数字段（long 域，越界即 configuration）。 */
-    private function readLong(string $fieldName): int
+        /** 读取整数字段（long 域，负数/超 PHP_INT_MAX 溢出即 configuration）。 */
+    private function readLong(string $fieldName, bool $allowZero = false): int
     {
         $this->skipWhitespace();
         $start = $this->pos;
@@ -233,24 +233,18 @@ final class ConfigJsonParser
             throw $this->syntax('期望数字');
         }
         $num = substr($this->json, $start, $this->pos - $start);
-        if (!ctype_digit($num)) {
-            throw WopException::configuration('配置字段 ' . $fieldName . ' 类型非法: ' . $num);
-        }
-        $value = (int) $num;
-        if ($value <= 0) {
+        // (int) 对超 PHP_INT_MAX 字符串会静默饱和为 PHP_INT_MAX：FILTER_VALIDATE_INT 溢出返回 false
+        $value = filter_var($num, FILTER_VALIDATE_INT);
+        if ($value === false || $value < ($allowZero ? 0 : 1)) {
             throw WopException::configuration('配置字段 ' . $fieldName . ' 类型非法: ' . $num);
         }
         return $value;
     }
 
-        /** 读取整数字段（int 域，越界即 configuration）。 */
-    private function readInt(string $fieldName): int
+        /** 读取整数字段（int 域；maxRetryCount 传 allowZero=true——0 表示禁用重试，§7.3）。 */
+    private function readInt(string $fieldName, bool $allowZero = false): int
     {
-        $value = $this->readLong($fieldName);
-        if ($value > PHP_INT_MAX) {
-            throw WopException::configuration('配置字段 ' . $fieldName . ' 类型非法: 数值越界');
-        }
-        return $value;
+        return $this->readLong($fieldName, $allowZero);
     }
 
         /** 跳过未知字段的任意值（对象/数组/串/数/字面量）。 */

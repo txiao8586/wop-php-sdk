@@ -20,19 +20,19 @@ final class ConfigValidator
         /** §3.4 语义校验与字段归一化（trim、缺省值填充、serverRoot/backup 逐项校验）。 */
     public static function validateAndNormalize(WopSdkConfig $raw): WopSdkConfig
     {
-        if ($raw->appKey === '' || trim($raw->appKey) === '') {
+        if (trim($raw->appKey) === '') {
             throw WopException::configuration('配置文件缺少必填项: appKey');
         }
-        if ($raw->suite === '' || trim($raw->suite) === '') {
+        if (trim($raw->suite) === '') {
             throw WopException::configuration('配置文件缺少必填项: suite');
         }
-        if ($raw->merchantPrivateKey === '' || trim($raw->merchantPrivateKey) === '') {
+        if (trim($raw->merchantPrivateKey) === '') {
             throw WopException::configuration('配置文件缺少必填项: merchantPrivateKey');
         }
-        if ($raw->platformPublicKey === '' || trim($raw->platformPublicKey) === '') {
+        if (trim($raw->platformPublicKey) === '') {
             throw WopException::configuration('配置文件缺少必填项: platformPublicKey');
         }
-        if ($raw->serverRoot === '' || trim($raw->serverRoot) === '') {
+        if (trim($raw->serverRoot) === '') {
             throw WopException::configuration('配置文件缺少必填项: serverRoot');
         }
         if ($raw->expiredSeconds <= 0) {
@@ -110,6 +110,10 @@ final class ConfigValidator
         if ($path === '') {
             throw WopException::configuration('请求路径为空');
         }
+        // 绝对 URL 检查须先于 / 前缀检查，否则对 "https://..." 永远只报前缀错
+        if (stripos($path, 'http:') === 0 || stripos($path, 'https:') === 0) {
+            throw WopException::configuration('path 不得为绝对 URL: ' . $path);
+        }
         if (!str_starts_with($path, '/')) {
             throw WopException::configuration('path 须以 / 开头: ' . $path);
         }
@@ -118,9 +122,6 @@ final class ConfigValidator
         }
         if (str_contains($path, '?') || str_contains($path, '#')) {
             throw WopException::configuration('path 不得含 query 或 fragment: ' . $path);
-        }
-        if (stripos($path, 'http:') === 0 || stripos($path, 'https:') === 0) {
-            throw WopException::configuration('path 不得为绝对 URL: ' . $path);
         }
     }
 
