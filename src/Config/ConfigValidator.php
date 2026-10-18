@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Wop\Sdk\Config;
 
 use phpseclib3\Crypt\RSA;
+use Wop\Sdk\SignHeader;
 use Wop\Sdk\Suite;
 use Wop\Sdk\WopException;
 
@@ -36,6 +37,9 @@ final class ConfigValidator
         }
         if ($raw->expiredSeconds <= 0) {
             throw WopException::configuration('expiredSeconds 须为正整数');
+        }
+        if ($raw->expiredSeconds > SignHeader::EXPIRED_SECONDS_MAX) {
+            throw WopException::configuration('expiredSeconds 超出允许范围 (0, ' . SignHeader::EXPIRED_SECONDS_MAX . ']');
         }
 
         try {
@@ -133,12 +137,28 @@ final class ConfigValidator
         /** 密钥格式/套件族交叉校验（§3.4：解析失败或跨族即 configuration）。 */
     private static function validateKeys(string $merchantPrivateKey, string $platformPublicKey, Suite $suite): void
     {
-        unset($suite);
         try {
-            RSA::load($merchantPrivateKey)->withPadding(RSA::SIGNATURE_PKCS1);
-            RSA::load($platformPublicKey)->withPadding(RSA::SIGNATURE_PKCS1);
+            $private = RSA::load($merchantPrivateKey)->withPadding(RSA::SIGNATURE_PKCS1);
+            $public = RSA::load($platformPublicKey)->withPadding(RSA::SIGNATURE_PKCS1);
         } catch (\Throwable $e) {
             throw WopException::configuration('密钥解析失败: ' . $e->getMessage(), $e);
+        }
+        // 位宽与套件一致（§3.4；2048/3072/4096），不符为配置类错误
+        if ($private->getLength() !== $suite->keyLength) {
+            throw WopException::configuration(sprintf(
+                'merchantPrivateKey 位宽 %d 与套件 %s 期望 %d 不符',
+                $private->getLength(),
+                $suite->securityReq,
+                $suite->keyLength
+            ));
+        }
+        if ($public->getLength() !== $suite->keyLength) {
+            throw WopException::configuration(sprintf(
+                'platformPublicKey 位宽 %d 与套件 %s 期望 %d 不符',
+                $public->getLength(),
+                $suite->securityReq,
+                $suite->keyLength
+            ));
         }
     }
 }

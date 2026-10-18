@@ -114,6 +114,21 @@ final class WopConfigLoaderTest extends VectorCase
         WopConfigLoader::loadPath($path);
     }
 
+    /** 2026-10-18 审查项 2：expiredSeconds 上界复用 SignHeader::EXPIRED_SECONDS_MAX，86400 恰含过。 */
+    public function testExpiredSecondsUpperBoundaryAccepted(): void
+    {
+        $path = $this->writeConfig(['expiredSeconds' => 86400]);
+        $this->assertSame(86400, WopConfigLoader::loadPath($path)->expiredSeconds);
+    }
+
+    public function testExpiredSecondsAboveUpperBoundRejected(): void
+    {
+        $path = $this->writeConfig(['expiredSeconds' => 86401]);
+        $this->expectException(WopException::class);
+        $this->expectExceptionMessage('expiredSeconds 超出允许范围 (0, 86400]');
+        WopConfigLoader::loadPath($path);
+    }
+
     public function testCacheReturnsSameInstance(): void
     {
         $path = __DIR__ . '/fixtures/valid-wop-config.json';

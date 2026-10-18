@@ -15,6 +15,7 @@ final class DekPayload
 
     /** @var array<string, string> securityReq → 期望 alg（§6.2 映射） */
     private const ALG_BY_SUITE = [
+        Suite::RSA2048 => self::ALG_AES_256_GCM,
         Suite::RSA3072 => self::ALG_AES_256_GCM,
         Suite::RSA4096 => self::ALG_AES_256_GCM,
         'WOP-SM2-SM3' => self::ALG_SM4_GCM,
