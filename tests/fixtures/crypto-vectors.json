@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "spec": "docs/crypto-strategy-spec.md v0.3-reviewed（附录 B.2 / D9）",
+    "spec": "crypto/crypto-strategy-spec.md v0.4-draft（附录 B.2 / D9）",
     "generated": "2026-08-28",
     "testOnly": true,
     "note": "全部密钥/k/IV 为 TEST-ONLY；固定 IV 仅为字节级断言，生产违反不变式 I4",
@@ -74,7 +74,7 @@
     }
   ],
   "signature": [
-{
+    {
       "id": "rsa2048-sign",
       "key": "rsa2048",
       "message": "WOP 跨语言测试向量 2026-08-28 — The quick brown fox jumps over the lazy dog.",
@@ -109,7 +109,7 @@
     }
   ],
   "keyEncrypt": [
-{
+    {
       "id": "oaep2048-unwrap",
       "key": "rsa2048",
       "cipherB64u": "XZx1rVmmuxWpkRyg_bDEsWcQvHFGgxW1DyolC4KZM12cOAj6jLUSyUcofFcoLlV8qDm72AdiR2nqzIhdklw4K-eGH5jmqbSbZaHaFZgbm540ADt1kHP5FascR9_3TXZjVabxv6yAk5z7TcukjJIAJlwtGG1Vvf1M4tv1c3zJcGp0Gkuu4BpHgB7TBeao3c7y5bTEj-yD7V1XRUQwc_QF0Iyy-AAjB99UB_i00TbjuJQUT1qdiskL7NPylo4oRBfbsRJUOLBuZoQ8CBW-nVlyFPatqt_box9IX5wrPQsUHOm90Z-EPIGK-J3XG09Q8v5kaTGKpOqyvMD4wP5kwXo0rQ",
