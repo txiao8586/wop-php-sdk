@@ -2,6 +2,9 @@
 
 declare(strict_types=1);
 
+// 向量钉版拉取：与 phpunit 共用（副本不落库，加载即校验）
+require_once __DIR__ . '/../../tests/specs_fetch.php';
+
 use Behat\Behat\Context\Context;
 use Wop\Sdk\Aes256Gcm;
 use Wop\Sdk\Base64Url;

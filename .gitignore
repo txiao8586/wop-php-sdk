@@ -21,3 +21,7 @@ __pycache__
 .factory/.pytest_cache/
 .factory/regression/**/out/
 .factory/prompts/__pycache__/
+
+# 黄金向量按钉版拉取生成（specs_fetch.php），不落库
+tests/fixtures/crypto-vectors.json
+tests/fixtures/interop-cases.json
