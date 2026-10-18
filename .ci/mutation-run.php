@@ -15,7 +15,7 @@ declare(strict_types=1);
  *
  * 评分：phpunit 退出非 0 或超时 → KILLED；退出 0 → SURVIVED；
  *       变异体语法破坏（phpunit 无法运行）→ INVALID（排除出分母）。
- * 用法：php .ci/mutation-run.php [--filter=op[,op...]] [--suite-args="..."]
+ * 用法：php .ci/mutation-run.php [--filter=op[,op...]] [--suite-args="..."] [--min-msi=F]
  */
 
 const REPO = __DIR__ . '/..';
@@ -216,9 +216,12 @@ function runSuite(string $extraArgs = ''): array
 
 // ==================== 主流程 ====================
 $optFilter = '';
+$optMinMsi = 90.0; // 默认门槛 90；CI nightly 按 82.80 实测基线起步收紧（82→90→95）
 for ($k = 1; $k < $argc; $k++) {
     if (str_starts_with($argv[$k], '--filter=')) {
         $optFilter = substr($argv[$k], 9);
+    } elseif (str_starts_with($argv[$k], '--min-msi=')) {
+        $optMinMsi = (float) substr($argv[$k], 10);
     }
 }
 $allowOps = $optFilter === '' ? null : explode(',', $optFilter);
@@ -378,4 +381,4 @@ file_put_contents(REPO . '/docs/mutation-results.json', json_encode(
 ));
 echo "\n" . $report;
 echo "报告: docs/mutation-report.md\n";
-exit($msi >= 90.0 ? 0 : 1);
+exit($msi >= $optMinMsi ? 0 : 1);
