@@ -28,6 +28,15 @@ final class RsaSignerTest extends VectorCase
         $this->assertSame(683, strlen($sig), 'RSA4096 签名 base64url 恒 683 字符');
     }
 
+    /** 2026-10-18 审查项 a：RSA2048 真源向量字节级断言（PKCS1v15+SHA256 确定性）。 */
+    public function testSignRsa2048MatchesVectorByteForByte(): void
+    {
+        $vec = self::vector('signature', 'rsa2048-sign');
+        $sig = RsaSigner::sign($vec['message'], self::keys()['rsa2048']['privatePkcs8B64']);
+        $this->assertSame($vec['expectedSigB64u'], $sig);
+        $this->assertSame(342, strlen($sig), 'RSA2048 签名 base64url 恒 342 字符');
+    }
+
     public function testVerifyVectorSignatures(): void
     {
         foreach (['rsa3072-sign', 'rsa4096-sign'] as $id) {

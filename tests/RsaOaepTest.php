@@ -27,6 +27,15 @@ final class RsaOaepTest extends VectorCase
         $this->assertSame($vec['expectedPlaintext'], $plain);
     }
 
+    /** 2026-10-18 审查项 b：oaep2048 真源向量字节级断言。 */
+    public function testUnwrap2048MatchesVector(): void
+    {
+        $vec = self::vector('keyEncrypt', 'oaep2048-unwrap');
+        $plain = RsaOaep::unwrap($vec['cipherB64u'], self::keys()['rsa2048']['privatePkcs8B64']);
+        $this->assertSame($vec['expectedPlaintext'], $plain);
+        $this->assertSame(self::inputs()['dekPayloadRsa'], $plain, 'oaep2048 明文即 inputs.dekPayloadRsa（真源交叉锚）');
+    }
+
     /** F2 钉子：以错误 MGF1（SHA-1）包装的密文，用规格参数（双 SHA-256）解包必须失败。 */
     public function testMgf1Sha1TrapIsRejected(): void
     {

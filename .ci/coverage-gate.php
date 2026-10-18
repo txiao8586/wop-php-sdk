@@ -63,20 +63,28 @@ if ($phpSnapshot !== null && file_exists(__DIR__ . '/../vendor/autoload.php')) {
     $cov = require $phpSnapshot;
     $pccc = (new ReflectionProperty($cov, 'data'))->getValue($cov);
     $fns = (new ReflectionProperty($pccc, 'functionCoverage'))->getValue($pccc);
-    foreach ($fns as $funcs) {
+    // xdebug ≥8.4 不可标记弧豁免（证据与复现见 .ci/unmarkable-arcs.php）
+    $unmarkable = require __DIR__ . '/unmarkable-arcs.php';
+    $exempt = 0;
+    foreach ($fns as $file => $funcs) {
+        $rel = str_replace([dirname(__DIR__) . '/src/', dirname(__DIR__) . '\\src\\'], '', (string) $file);
+        $lines = $unmarkable[$rel] ?? [];
         foreach ($funcs as $fn => $info) {
-            $branches = is_array($info) ? $info['branches'] : $info->branches;
+            $branches = is_array($info) ? $info['branches'] : (new ReflectionProperty(get_class($info), 'branches'))->getValue($info);
             foreach ($branches as $brObj) {
                 $br = is_array($brObj) ? $brObj : get_object_vars($brObj);
                 $branchTotal++;
                 if (($br['hit'] ?? []) !== []) {
                     $branchCovered++;
+                } elseif (in_array((int) ($br['lineStart'] ?? $br['line_start'] ?? -1), $lines, true)) {
+                    $exempt++;
                 }
             }
         }
     }
+    $branchTotal -= $exempt;
     $branchPct = $branchTotal > 0 ? 100 * $branchCovered / $branchTotal : 0;
-    printf("BRANCHES %d/%d = %.2f%%\n", $branchCovered, $branchTotal, $branchPct);
+    printf("BRANCHES %d/%d = %.2f%%（豁免不可标记弧 %d 条）\n", $branchCovered, $branchTotal, $branchPct, $exempt);
 } else {
     fwrite(STDERR, "警告：未找到 coverage/cov.php 快照，分支门禁未执行（仅行口径）\n");
 }

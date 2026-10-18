@@ -59,7 +59,7 @@ Guzzle 适配器直接接受数组——`GuzzleTransport::send()` 内部完成�
 | RSA 私钥（PKCS8） | PKCS#8 DER 的 Base64 单行，或等价 PEM（`-----BEGIN PRIVATE KEY-----` 包装） |
 
 - SDK 对 PEM / Base64 单行两种入参等价接受（内部 `phpseclib` 解析并缓存）；
-- 签名算法族：`WOP-RSA3072-SHA256` / `WOP-RSA4096-SHA256`（SHA256withRSA，PKCS#1 v1.5）；
+- 签名算法族：`WOP-RSA2048-SHA256` / `WOP-RSA3072-SHA256` / `WOP-RSA4096-SHA256`（SHA256withRSA，PKCS#1 v1.5）；
 - `SM2` 公钥（`04‖X‖Y` 65B）与 `d` 32B 标量属国密套件，本版不支持（见下方路线图）。
 
 ## L0 + L2 示例
@@ -99,6 +99,12 @@ vendor/bin/phpunit                  # 139 项断言全绿（含黄金向量套�
 - 配置/解析/格式/一致性类错误：抛 `Wop\Sdk\WopException`，消息语义明确（帮助集成自查）；
 - 验签失败与解密失败（GCM tag / DEK 解包）：**对外文案固定**为「签名验证失败」「解密失败」，
   不区分原因细节，防 padding-oracle 式信息泄露；调用方仅见 `VerifyResult::reason`。
+
+## 破坏性变更与预留字段
+
+- `httpClient.maxRetryCount` 与 `backupServerRoots` 当前为**预留字段**（P2）：配置层会校验并接受，
+  但本版（0.1.0）**不产生任何自动重试 / 备根切换行为**——请求失败即上抛，`serverRoot` 是唯一生效的网关地址；
+- 后续版本启用这些字段时不视为破坏性变更（现有配置文件结构无需改动），行为以变更日志公告为准。
 
 ## 依赖说明
 
