@@ -1,0 +1,43 @@
+name: mutation
+
+# 变异测试 nightly：MSI 门禁起步 ≥82（2026-10-18 全量重算基线 878 体 / MSI 82.80%，
+# 较 8 月基线 494 体 / 90.69% 静默腐化 8 点——nightly 的存在意义即此）。收紧路线
+# 82→90→95：killer 测试补齐 + EQUIVALENT-MUTANTS.md 台账重录后逐级上调，对齐 python-sdk 95。
+# token 级 13 算子 × 全量 phpunit，纯 exit-code 判定故 coverage: none 免装驱动；
+# 全量本地 M4 约 51 分钟，CI runner 更慢故 timeout 180。
+on:
+  schedule:
+    - cron: "17 4 * * *" # UTC 04:17 错开 ci 高峰与 python-sdk mutation 03:30
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: mutation-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  mutation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: "8.3"
+          extensions: openssl, curl
+          coverage: none
+      - name: Install dependencies
+        run: composer install --no-interaction --no-progress
+      - name: Mutation testing (MSI gate ≥82, 13 operators)
+        run: php .ci/mutation-run.php --min-msi=82
+      - name: Upload mutation report
+        if: always() # 门禁失败时报告更要留档（存活体清单即待办）
+        uses: actions/upload-artifact@v4
+        with:
+          name: mutation-report
+          path: |
+            docs/mutation-report.md
+            docs/mutation-results.json
+          if-no-files-found: warn

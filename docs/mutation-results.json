@@ -55,7 +55,7 @@
     },
     {
         "file": "src/Aes256Gcm.php",
-        "line": 27,
+        "line": 28,
         "op": "eq-neg",
         "original": "===",
         "replacement": "!==",
@@ -64,7 +64,7 @@
     },
     {
         "file": "src/Aes256Gcm.php",
-        "line": 29,
+        "line": 30,
         "op": "neq-neg",
         "original": "!==",
         "replacement": "===",
@@ -73,7 +73,7 @@
     },
     {
         "file": "src/Aes256Gcm.php",
-        "line": 30,
+        "line": 31,
         "op": "str-empty",
         "original": "'IV \u957f\u5ea6\u975e\u6cd5\uff08\u987b 12 \u5b57\u8282\uff09'",
         "replacement": "''",
@@ -82,7 +82,7 @@
     },
     {
         "file": "src/Aes256Gcm.php",
-        "line": 33,
+        "line": 34,
         "op": "str-empty",
         "original": "'aes-256-gcm'",
         "replacement": "''",
@@ -91,7 +91,7 @@
     },
     {
         "file": "src/Aes256Gcm.php",
-        "line": 43,
+        "line": 44,
         "op": "neq-neg",
         "original": "!==",
         "replacement": "===",
@@ -100,7 +100,7 @@
     },
     {
         "file": "src/Aes256Gcm.php",
-        "line": 43,
+        "line": 44,
         "op": "logic",
         "original": "||",
         "replacement": "&&",
@@ -109,7 +109,7 @@
     },
     {
         "file": "src/Aes256Gcm.php",
-        "line": 43,
+        "line": 44,
         "op": "rel-lt",
         "original": "<",
         "replacement": "<=",
@@ -118,7 +118,7 @@
     },
     {
         "file": "src/Aes256Gcm.php",
-        "line": 48,
+        "line": 49,
         "op": "str-empty",
         "original": "'aes-256-gcm'",
         "replacement": "''",
@@ -127,7 +127,7 @@
     },
     {
         "file": "src/Aes256Gcm.php",
-        "line": 49,
+        "line": 50,
         "op": "eq-neg",
         "original": "===",
         "replacement": "!==",
@@ -136,7 +136,7 @@
     },
     {
         "file": "src/Aes256Gcm.php",
-        "line": 49,
+        "line": 50,
         "op": "bool-flip",
         "original": "false",
         "replacement": "true",
@@ -145,7 +145,7 @@
     },
     {
         "file": "src/Aes256Gcm.php",
-        "line": 54,
+        "line": 56,
         "op": "neq-neg",
         "original": "!==",
         "replacement": "===",
@@ -154,7 +154,7 @@
     },
     {
         "file": "src/Aes256Gcm.php",
-        "line": 55,
+        "line": 57,
         "op": "str-empty",
         "original": "'AES-256 \u5bc6\u94a5\u957f\u5ea6\u975e\u6cd5\uff08\u987b 32 \u5b57\u8282\uff09'",
         "replacement": "''",
@@ -172,7 +172,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 21,
+        "line": 23,
         "op": "str-empty",
         "original": "'+/'",
         "replacement": "''",
@@ -181,7 +181,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 21,
+        "line": 23,
         "op": "str-empty",
         "original": "'-_'",
         "replacement": "''",
@@ -190,7 +190,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 21,
+        "line": 23,
         "op": "str-empty",
         "original": "'='",
         "replacement": "''",
@@ -199,7 +199,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 32,
+        "line": 34,
         "op": "int-plus1",
         "original": "4",
         "replacement": "5",
@@ -208,7 +208,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 32,
+        "line": 34,
         "op": "int-zero",
         "original": "4",
         "replacement": "0",
@@ -217,7 +217,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 32,
+        "line": 34,
         "op": "eq-neg",
         "original": "===",
         "replacement": "!==",
@@ -226,7 +226,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 32,
+        "line": 34,
         "op": "int-plus1",
         "original": "1",
         "replacement": "2",
@@ -235,7 +235,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 32,
+        "line": 34,
         "op": "int-zero",
         "original": "1",
         "replacement": "0",
@@ -244,7 +244,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 33,
+        "line": 35,
         "op": "str-empty",
         "original": "'base64url \u4e32\u957f\u5ea6\u975e\u6cd5\uff08%4==1\uff09'",
         "replacement": "''",
@@ -253,7 +253,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 35,
+        "line": 37,
         "op": "neq-neg",
         "original": "!==",
         "replacement": "===",
@@ -262,7 +262,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 36,
+        "line": 38,
         "op": "str-empty",
         "original": "'base64url \u4e32\u542b\u975e\u6cd5\u5b57\u7b26\uff08\u987b\u65e0\u586b\u5145\u3001URL \u5b57\u6bcd\u8868\uff09'",
         "replacement": "''",
@@ -271,7 +271,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 41,
+        "line": 43,
         "op": "int-plus1",
         "original": "4",
         "replacement": "5",
@@ -280,7 +280,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 41,
+        "line": 43,
         "op": "int-zero",
         "original": "4",
         "replacement": "0",
@@ -289,7 +289,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 42,
+        "line": 44,
         "op": "eq-neg",
         "original": "===",
         "replacement": "!==",
@@ -298,7 +298,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 42,
+        "line": 44,
         "op": "int-plus1",
         "original": "2",
         "replacement": "3",
@@ -307,7 +307,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 42,
+        "line": 44,
         "op": "int-zero",
         "original": "2",
         "replacement": "0",
@@ -316,7 +316,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 42,
+        "line": 44,
         "op": "logic",
         "original": "||",
         "replacement": "&&",
@@ -325,7 +325,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 42,
+        "line": 44,
         "op": "eq-neg",
         "original": "===",
         "replacement": "!==",
@@ -334,7 +334,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 42,
+        "line": 44,
         "op": "int-plus1",
         "original": "3",
         "replacement": "4",
@@ -343,7 +343,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 42,
+        "line": 44,
         "op": "int-zero",
         "original": "3",
         "replacement": "0",
@@ -352,7 +352,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 43,
+        "line": 45,
         "op": "arith-minus",
         "original": "-",
         "replacement": "+",
@@ -361,7 +361,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 43,
+        "line": 45,
         "op": "int-plus1",
         "original": "1",
         "replacement": "2",
@@ -370,7 +370,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 43,
+        "line": 45,
         "op": "int-zero",
         "original": "1",
         "replacement": "0",
@@ -379,7 +379,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 44,
+        "line": 46,
         "op": "eq-neg",
         "original": "===",
         "replacement": "!==",
@@ -388,7 +388,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 44,
+        "line": 46,
         "op": "int-plus1",
         "original": "2",
         "replacement": "3",
@@ -397,7 +397,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 44,
+        "line": 46,
         "op": "int-zero",
         "original": "2",
         "replacement": "0",
@@ -406,7 +406,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 44,
+        "line": 46,
         "op": "int-plus1",
         "original": "0xF",
         "replacement": "1",
@@ -415,7 +415,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 44,
+        "line": 46,
         "op": "int-zero",
         "original": "0xF",
         "replacement": "0",
@@ -424,7 +424,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 44,
+        "line": 46,
         "op": "int-plus1",
         "original": "0x3",
         "replacement": "1",
@@ -433,7 +433,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 44,
+        "line": 46,
         "op": "int-zero",
         "original": "0x3",
         "replacement": "0",
@@ -442,7 +442,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 45,
+        "line": 47,
         "op": "neq-neg",
         "original": "!==",
         "replacement": "===",
@@ -451,7 +451,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 46,
+        "line": 48,
         "op": "str-empty",
         "original": "'base64url \u4e32\u542b\u975e\u89c4\u8303\u5c3e\u968f\u4f4d'",
         "replacement": "''",
@@ -460,7 +460,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 50,
+        "line": 52,
         "op": "str-empty",
         "original": "'-_'",
         "replacement": "''",
@@ -469,7 +469,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 50,
+        "line": 52,
         "op": "str-empty",
         "original": "'+/'",
         "replacement": "''",
@@ -478,7 +478,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 50,
+        "line": 52,
         "op": "bool-flip",
         "original": "true",
         "replacement": "false",
@@ -487,7 +487,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 56,
+        "line": 59,
         "op": "rel-gte",
         "original": ">=",
         "replacement": ">",
@@ -496,7 +496,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 56,
+        "line": 59,
         "op": "int-plus1",
         "original": "65",
         "replacement": "66",
@@ -505,7 +505,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 56,
+        "line": 59,
         "op": "int-zero",
         "original": "65",
         "replacement": "0",
@@ -514,7 +514,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 56,
+        "line": 59,
         "op": "logic",
         "original": "&&",
         "replacement": "||",
@@ -523,7 +523,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 56,
+        "line": 59,
         "op": "rel-lte",
         "original": "<=",
         "replacement": "<",
@@ -532,7 +532,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 56,
+        "line": 59,
         "op": "int-plus1",
         "original": "90",
         "replacement": "91",
@@ -541,7 +541,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 56,
+        "line": 59,
         "op": "int-zero",
         "original": "90",
         "replacement": "0",
@@ -550,7 +550,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 57,
+        "line": 60,
         "op": "arith-minus",
         "original": "-",
         "replacement": "+",
@@ -559,7 +559,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 57,
+        "line": 60,
         "op": "int-plus1",
         "original": "65",
         "replacement": "66",
@@ -568,7 +568,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 57,
+        "line": 60,
         "op": "int-zero",
         "original": "65",
         "replacement": "0",
@@ -577,7 +577,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 59,
+        "line": 62,
         "op": "rel-gte",
         "original": ">=",
         "replacement": ">",
@@ -586,7 +586,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 59,
+        "line": 62,
         "op": "int-plus1",
         "original": "97",
         "replacement": "98",
@@ -595,7 +595,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 59,
+        "line": 62,
         "op": "int-zero",
         "original": "97",
         "replacement": "0",
@@ -604,7 +604,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 59,
+        "line": 62,
         "op": "logic",
         "original": "&&",
         "replacement": "||",
@@ -613,7 +613,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 59,
+        "line": 62,
         "op": "rel-lte",
         "original": "<=",
         "replacement": "<",
@@ -622,7 +622,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 59,
+        "line": 62,
         "op": "int-plus1",
         "original": "122",
         "replacement": "123",
@@ -631,7 +631,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 59,
+        "line": 62,
         "op": "int-zero",
         "original": "122",
         "replacement": "0",
@@ -640,7 +640,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 60,
+        "line": 63,
         "op": "arith-minus",
         "original": "-",
         "replacement": "+",
@@ -649,7 +649,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 60,
+        "line": 63,
         "op": "int-plus1",
         "original": "97",
         "replacement": "98",
@@ -658,7 +658,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 60,
+        "line": 63,
         "op": "int-zero",
         "original": "97",
         "replacement": "0",
@@ -667,7 +667,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 60,
+        "line": 63,
         "op": "arith-plus",
         "original": "+",
         "replacement": "-",
@@ -676,7 +676,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 60,
+        "line": 63,
         "op": "int-plus1",
         "original": "26",
         "replacement": "27",
@@ -685,7 +685,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 60,
+        "line": 63,
         "op": "int-zero",
         "original": "26",
         "replacement": "0",
@@ -694,7 +694,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 62,
+        "line": 65,
         "op": "rel-gte",
         "original": ">=",
         "replacement": ">",
@@ -703,7 +703,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 62,
+        "line": 65,
         "op": "int-plus1",
         "original": "48",
         "replacement": "49",
@@ -712,7 +712,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 62,
+        "line": 65,
         "op": "int-zero",
         "original": "48",
         "replacement": "0",
@@ -721,7 +721,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 62,
+        "line": 65,
         "op": "logic",
         "original": "&&",
         "replacement": "||",
@@ -730,7 +730,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 62,
+        "line": 65,
         "op": "rel-lte",
         "original": "<=",
         "replacement": "<",
@@ -739,7 +739,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 62,
+        "line": 65,
         "op": "int-plus1",
         "original": "57",
         "replacement": "58",
@@ -748,7 +748,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 62,
+        "line": 65,
         "op": "int-zero",
         "original": "57",
         "replacement": "0",
@@ -757,7 +757,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 63,
+        "line": 66,
         "op": "arith-minus",
         "original": "-",
         "replacement": "+",
@@ -766,7 +766,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 63,
+        "line": 66,
         "op": "int-plus1",
         "original": "48",
         "replacement": "49",
@@ -775,7 +775,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 63,
+        "line": 66,
         "op": "int-zero",
         "original": "48",
         "replacement": "0",
@@ -784,7 +784,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 63,
+        "line": 66,
         "op": "arith-plus",
         "original": "+",
         "replacement": "-",
@@ -793,7 +793,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 63,
+        "line": 66,
         "op": "int-plus1",
         "original": "52",
         "replacement": "53",
@@ -802,7 +802,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 63,
+        "line": 66,
         "op": "int-zero",
         "original": "52",
         "replacement": "0",
@@ -811,7 +811,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 65,
+        "line": 68,
         "op": "eq-neg",
         "original": "===",
         "replacement": "!==",
@@ -820,7 +820,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 65,
+        "line": 68,
         "op": "int-plus1",
         "original": "45",
         "replacement": "46",
@@ -829,7 +829,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 65,
+        "line": 68,
         "op": "int-zero",
         "original": "45",
         "replacement": "0",
@@ -838,7 +838,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 65,
+        "line": 68,
         "op": "int-plus1",
         "original": "62",
         "replacement": "63",
@@ -847,7 +847,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 65,
+        "line": 68,
         "op": "int-zero",
         "original": "62",
         "replacement": "0",
@@ -856,7 +856,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 65,
+        "line": 68,
         "op": "int-plus1",
         "original": "63",
         "replacement": "64",
@@ -865,7 +865,7 @@
     },
     {
         "file": "src/Base64Url.php",
-        "line": 65,
+        "line": 68,
         "op": "int-zero",
         "original": "63",
         "replacement": "0",
@@ -874,7 +874,7 @@
     },
     {
         "file": "src/CanonicalRequest.php",
-        "line": 23,
+        "line": 24,
         "op": "eq-neg",
         "original": "===",
         "replacement": "!==",
@@ -883,7 +883,7 @@
     },
     {
         "file": "src/CanonicalRequest.php",
-        "line": 23,
+        "line": 24,
         "op": "logic",
         "original": "||",
         "replacement": "&&",
@@ -892,7 +892,7 @@
     },
     {
         "file": "src/CanonicalRequest.php",
-        "line": 23,
+        "line": 24,
         "op": "eq-neg",
         "original": "===",
         "replacement": "!==",
@@ -901,7 +901,7 @@
     },
     {
         "file": "src/CanonicalRequest.php",
-        "line": 29,
+        "line": 30,
         "op": "str-empty",
         "original": "'~'",
         "replacement": "''",
@@ -910,7 +910,7 @@
     },
     {
         "file": "src/CanonicalRequest.php",
-        "line": 29,
+        "line": 30,
         "op": "str-empty",
         "original": "'%7E'",
         "replacement": "''",
@@ -919,7 +919,7 @@
     },
     {
         "file": "src/CanonicalRequest.php",
-        "line": 30,
+        "line": 31,
         "op": "str-empty",
         "original": "'%2A'",
         "replacement": "''",
@@ -928,7 +928,7 @@
     },
     {
         "file": "src/CanonicalRequest.php",
-        "line": 30,
+        "line": 31,
         "op": "str-empty",
         "original": "'*'",
         "replacement": "''",
@@ -937,7 +937,7 @@
     },
     {
         "file": "src/CanonicalRequest.php",
-        "line": 39,
+        "line": 40,
         "op": "eq-neg",
         "original": "===",
         "replacement": "!==",
@@ -946,7 +946,7 @@
     },
     {
         "file": "src/CanonicalRequest.php",
-        "line": 39,
+        "line": 40,
         "op": "logic",
         "original": "||",
         "replacement": "&&",
@@ -955,7 +955,7 @@
     },
     {
         "file": "src/CanonicalRequest.php",
-        "line": 39,
+        "line": 40,
         "op": "eq-neg",
         "original": "===",
         "replacement": "!==",
@@ -964,7 +964,7 @@
     },
     {
         "file": "src/CanonicalRequest.php",
-        "line": 42,
+        "line": 43,
         "op": "str-empty",
         "original": "'/\\s+/u'",
         "replacement": "''",
@@ -973,7 +973,7 @@
     },
     {
         "file": "src/CanonicalRequest.php",
-        "line": 42,
+        "line": 43,
         "op": "str-empty",
         "original": "' '",
         "replacement": "''",
@@ -982,7 +982,7 @@
     },
     {
         "file": "src/CanonicalRequest.php",
-        "line": 53,
+        "line": 54,
         "op": "eq-neg",
         "original": "===",
         "replacement": "!==",
@@ -991,12 +991,2793 @@
     },
     {
         "file": "src/CanonicalRequest.php",
-        "line": 63,
+        "line": 64,
         "op": "str-empty",
         "original": "':'",
         "replacement": "''",
         "verdict": "KILLED",
         "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 27,
+        "op": "eq-neg",
+        "original": "===",
+        "replacement": "!==",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 28,
+        "op": "str-empty",
+        "original": "'\u914d\u7f6e\u6587\u4ef6 JSON \u89e3\u6790\u5931\u8d25: \u7a7a\u6587\u4ef6'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 36,
+        "op": "int-plus1",
+        "original": "3",
+        "replacement": "4",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 36,
+        "op": "int-zero",
+        "original": "3",
+        "replacement": "0",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 42,
+        "op": "str-empty",
+        "original": "'{'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 55,
+        "op": "not-del",
+        "original": "!",
+        "replacement": "",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 55,
+        "op": "str-empty",
+        "original": "'}'",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 59,
+        "op": "str-empty",
+        "original": "':'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 61,
+        "op": "str-empty",
+        "original": "'appKey'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 64,
+        "op": "str-empty",
+        "original": "'suite'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 67,
+        "op": "str-empty",
+        "original": "'merchantPrivateKey'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 70,
+        "op": "str-empty",
+        "original": "'platformPublicKey'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 73,
+        "op": "str-empty",
+        "original": "'serverRoot'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 76,
+        "op": "str-empty",
+        "original": "'backupServerRoots'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 79,
+        "op": "str-empty",
+        "original": "'expiredSeconds'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 80,
+        "op": "str-empty",
+        "original": "'expiredSeconds'",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 82,
+        "op": "str-empty",
+        "original": "'httpClient'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 88,
+        "op": "str-empty",
+        "original": "'}'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 92,
+        "op": "rel-lt",
+        "original": "<",
+        "replacement": "<=",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 93,
+        "op": "str-empty",
+        "original": "'\u914d\u7f6e\u6587\u4ef6 JSON \u89e3\u6790\u5931\u8d25: \u6839\u5bf9\u8c61\u540e\u5b58\u5728\u591a\u4f59\u5185\u5bb9'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 113,
+        "op": "str-empty",
+        "original": "'{'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 120,
+        "op": "not-del",
+        "original": "!",
+        "replacement": "",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 120,
+        "op": "str-empty",
+        "original": "'}'",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 124,
+        "op": "str-empty",
+        "original": "':'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 126,
+        "op": "str-empty",
+        "original": "'connectTimeout'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 127,
+        "op": "str-empty",
+        "original": "'httpClient.connectTimeout'",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 129,
+        "op": "str-empty",
+        "original": "'readTimeout'",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 130,
+        "op": "str-empty",
+        "original": "'httpClient.readTimeout'",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 132,
+        "op": "str-empty",
+        "original": "'maxRetryCount'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 133,
+        "op": "str-empty",
+        "original": "'httpClient.maxRetryCount'",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 133,
+        "op": "bool-flip",
+        "original": "true",
+        "replacement": "false",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 138,
+        "op": "str-empty",
+        "original": "'}'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 151,
+        "op": "str-empty",
+        "original": "'['",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 154,
+        "op": "not-del",
+        "original": "!",
+        "replacement": "",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 154,
+        "op": "str-empty",
+        "original": "']'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 157,
+        "op": "str-empty",
+        "original": "']'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 166,
+        "op": "str-empty",
+        "original": "'\u914d\u7f6e\u5b57\u6bb5 '",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 166,
+        "op": "str-empty",
+        "original": "' \u91cd\u590d: '",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 168,
+        "op": "bool-flip",
+        "original": "true",
+        "replacement": "false",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 175,
+        "op": "rel-gte",
+        "original": ">=",
+        "replacement": ">",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 175,
+        "op": "logic",
+        "original": "||",
+        "replacement": "&&",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 175,
+        "op": "neq-neg",
+        "original": "!==",
+        "replacement": "===",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 175,
+        "op": "str-empty",
+        "original": "'\"'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 176,
+        "op": "str-empty",
+        "original": "'\u671f\u671b\u5b57\u7b26\u4e32'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 180,
+        "op": "rel-lt",
+        "original": "<",
+        "replacement": "<=",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 182,
+        "op": "eq-neg",
+        "original": "===",
+        "replacement": "!==",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 182,
+        "op": "str-empty",
+        "original": "'\"'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 185,
+        "op": "eq-neg",
+        "original": "===",
+        "replacement": "!==",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 185,
+        "op": "str-empty",
+        "original": "'\\\\'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 186,
+        "op": "rel-gte",
+        "original": ">=",
+        "replacement": ">",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 187,
+        "op": "str-empty",
+        "original": "'\u5b57\u7b26\u4e32\u8f6c\u4e49\u4e0d\u5b8c\u6574'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 191,
+        "op": "str-empty",
+        "original": "'\"'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 191,
+        "op": "str-empty",
+        "original": "'\\\\'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 191,
+        "op": "str-empty",
+        "original": "'/'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 192,
+        "op": "str-empty",
+        "original": "'b'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 193,
+        "op": "str-empty",
+        "original": "'f'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 194,
+        "op": "str-empty",
+        "original": "'n'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 195,
+        "op": "str-empty",
+        "original": "'r'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 196,
+        "op": "str-empty",
+        "original": "'t'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 197,
+        "op": "str-empty",
+        "original": "'u'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 198,
+        "op": "str-empty",
+        "original": "'\u975e\u6cd5\u8f6c\u4e49 \\\\'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 204,
+        "op": "str-empty",
+        "original": "'\u5b57\u7b26\u4e32\u672a\u95ed\u5408'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 210,
+        "op": "arith-plus",
+        "original": "+",
+        "replacement": "-",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 210,
+        "op": "int-plus1",
+        "original": "4",
+        "replacement": "5",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 210,
+        "op": "int-zero",
+        "original": "4",
+        "replacement": "0",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 210,
+        "op": "rel-gt",
+        "original": ">",
+        "replacement": ">=",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 211,
+        "op": "str-empty",
+        "original": "'\\\\u \u8f6c\u4e49\u4e0d\u5b8c\u6574'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 213,
+        "op": "int-plus1",
+        "original": "4",
+        "replacement": "5",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 213,
+        "op": "int-zero",
+        "original": "4",
+        "replacement": "0",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 214,
+        "op": "not-del",
+        "original": "!",
+        "replacement": "",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 215,
+        "op": "str-empty",
+        "original": "'\\\\u \u8f6c\u4e49\u975e\u6cd5'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 217,
+        "op": "int-plus1",
+        "original": "4",
+        "replacement": "5",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 217,
+        "op": "int-zero",
+        "original": "4",
+        "replacement": "0",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 218,
+        "op": "str-empty",
+        "original": "'UTF-8'",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 222,
+        "op": "bool-flip",
+        "original": "false",
+        "replacement": "true",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 226,
+        "op": "rel-lt",
+        "original": "<",
+        "replacement": "<=",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 226,
+        "op": "logic",
+        "original": "&&",
+        "replacement": "||",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 226,
+        "op": "eq-neg",
+        "original": "===",
+        "replacement": "!==",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 226,
+        "op": "str-empty",
+        "original": "'-'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 229,
+        "op": "rel-lt",
+        "original": "<",
+        "replacement": "<=",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 229,
+        "op": "logic",
+        "original": "&&",
+        "replacement": "||",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 232,
+        "op": "eq-neg",
+        "original": "===",
+        "replacement": "!==",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 233,
+        "op": "str-empty",
+        "original": "'\u671f\u671b\u6570\u5b57'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 235,
+        "op": "arith-minus",
+        "original": "-",
+        "replacement": "+",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 238,
+        "op": "eq-neg",
+        "original": "===",
+        "replacement": "!==",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 238,
+        "op": "bool-flip",
+        "original": "false",
+        "replacement": "true",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 238,
+        "op": "logic",
+        "original": "||",
+        "replacement": "&&",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 238,
+        "op": "rel-lt",
+        "original": "<",
+        "replacement": "<=",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 238,
+        "op": "int-plus1",
+        "original": "1",
+        "replacement": "2",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 238,
+        "op": "int-zero",
+        "original": "1",
+        "replacement": "0",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 239,
+        "op": "str-empty",
+        "original": "'\u914d\u7f6e\u5b57\u6bb5 '",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 239,
+        "op": "str-empty",
+        "original": "' \u7c7b\u578b\u975e\u6cd5: '",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 245,
+        "op": "bool-flip",
+        "original": "false",
+        "replacement": "true",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 254,
+        "op": "rel-gte",
+        "original": ">=",
+        "replacement": ">",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 255,
+        "op": "str-empty",
+        "original": "'\u610f\u5916\u7ed3\u675f'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 258,
+        "op": "eq-neg",
+        "original": "===",
+        "replacement": "!==",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 258,
+        "op": "str-empty",
+        "original": "'\"'",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 260,
+        "op": "eq-neg",
+        "original": "===",
+        "replacement": "!==",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 260,
+        "op": "str-empty",
+        "original": "'{'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 262,
+        "op": "eq-neg",
+        "original": "===",
+        "replacement": "!==",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 262,
+        "op": "str-empty",
+        "original": "'['",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 264,
+        "op": "eq-neg",
+        "original": "===",
+        "replacement": "!==",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 264,
+        "op": "str-empty",
+        "original": "'t'",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 264,
+        "op": "logic",
+        "original": "||",
+        "replacement": "&&",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 264,
+        "op": "eq-neg",
+        "original": "===",
+        "replacement": "!==",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 264,
+        "op": "str-empty",
+        "original": "'f'",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 264,
+        "op": "logic",
+        "original": "||",
+        "replacement": "&&",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 264,
+        "op": "eq-neg",
+        "original": "===",
+        "replacement": "!==",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 264,
+        "op": "str-empty",
+        "original": "'n'",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 267,
+        "op": "rel-lt",
+        "original": "<",
+        "replacement": "<=",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 267,
+        "op": "logic",
+        "original": "&&",
+        "replacement": "||",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 267,
+        "op": "not-del",
+        "original": "!",
+        "replacement": "",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 267,
+        "op": "str-empty",
+        "original": "',]}'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 276,
+        "op": "str-empty",
+        "original": "'{'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 278,
+        "op": "not-del",
+        "original": "!",
+        "replacement": "",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 278,
+        "op": "str-empty",
+        "original": "'}'",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 281,
+        "op": "str-empty",
+        "original": "':'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 283,
+        "op": "str-empty",
+        "original": "'}'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 290,
+        "op": "str-empty",
+        "original": "'['",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 292,
+        "op": "not-del",
+        "original": "!",
+        "replacement": "",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 292,
+        "op": "str-empty",
+        "original": "']'",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 295,
+        "op": "str-empty",
+        "original": "']'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 302,
+        "op": "rel-lt",
+        "original": "<",
+        "replacement": "<=",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 302,
+        "op": "logic",
+        "original": "&&",
+        "replacement": "||",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 311,
+        "op": "rel-gte",
+        "original": ">=",
+        "replacement": ">",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 311,
+        "op": "logic",
+        "original": "||",
+        "replacement": "&&",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 311,
+        "op": "neq-neg",
+        "original": "!==",
+        "replacement": "===",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 321,
+        "op": "rel-lt",
+        "original": "<",
+        "replacement": "<=",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 321,
+        "op": "logic",
+        "original": "&&",
+        "replacement": "||",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 321,
+        "op": "eq-neg",
+        "original": "===",
+        "replacement": "!==",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 323,
+        "op": "bool-flip",
+        "original": "true",
+        "replacement": "false",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 325,
+        "op": "bool-flip",
+        "original": "false",
+        "replacement": "true",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 336,
+        "op": "rel-lt",
+        "original": "<",
+        "replacement": "<=",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 336,
+        "op": "logic",
+        "original": "&&",
+        "replacement": "||",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 336,
+        "op": "eq-neg",
+        "original": "===",
+        "replacement": "!==",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 336,
+        "op": "str-empty",
+        "original": "','",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 339,
+        "op": "rel-lt",
+        "original": "<",
+        "replacement": "<=",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 339,
+        "op": "logic",
+        "original": "&&",
+        "replacement": "||",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 339,
+        "op": "eq-neg",
+        "original": "===",
+        "replacement": "!==",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 342,
+        "op": "bool-flip",
+        "original": "true",
+        "replacement": "false",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 344,
+        "op": "rel-lt",
+        "original": "<",
+        "replacement": "<=",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 344,
+        "op": "logic",
+        "original": "&&",
+        "replacement": "||",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 344,
+        "op": "eq-neg",
+        "original": "===",
+        "replacement": "!==",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 346,
+        "op": "bool-flip",
+        "original": "false",
+        "replacement": "true",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 354,
+        "op": "rel-lt",
+        "original": "<",
+        "replacement": "<=",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 356,
+        "op": "eq-neg",
+        "original": "===",
+        "replacement": "!==",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 356,
+        "op": "str-empty",
+        "original": "' '",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 356,
+        "op": "logic",
+        "original": "||",
+        "replacement": "&&",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 356,
+        "op": "eq-neg",
+        "original": "===",
+        "replacement": "!==",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 356,
+        "op": "logic",
+        "original": "||",
+        "replacement": "&&",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 356,
+        "op": "eq-neg",
+        "original": "===",
+        "replacement": "!==",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 356,
+        "op": "logic",
+        "original": "||",
+        "replacement": "&&",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 356,
+        "op": "eq-neg",
+        "original": "===",
+        "replacement": "!==",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigJsonParser.php",
+        "line": 367,
+        "op": "str-empty",
+        "original": "'\u914d\u7f6e\u6587\u4ef6 JSON \u89e3\u6790\u5931\u8d25: '",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 23,
+        "op": "eq-neg",
+        "original": "===",
+        "replacement": "!==",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 24,
+        "op": "str-empty",
+        "original": "'\u914d\u7f6e\u6587\u4ef6\u7f3a\u5c11\u5fc5\u586b\u9879: appKey'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 26,
+        "op": "eq-neg",
+        "original": "===",
+        "replacement": "!==",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 27,
+        "op": "str-empty",
+        "original": "'\u914d\u7f6e\u6587\u4ef6\u7f3a\u5c11\u5fc5\u586b\u9879: suite'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 29,
+        "op": "eq-neg",
+        "original": "===",
+        "replacement": "!==",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 30,
+        "op": "str-empty",
+        "original": "'\u914d\u7f6e\u6587\u4ef6\u7f3a\u5c11\u5fc5\u586b\u9879: merchantPrivateKey'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 32,
+        "op": "eq-neg",
+        "original": "===",
+        "replacement": "!==",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 33,
+        "op": "str-empty",
+        "original": "'\u914d\u7f6e\u6587\u4ef6\u7f3a\u5c11\u5fc5\u586b\u9879: platformPublicKey'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 35,
+        "op": "eq-neg",
+        "original": "===",
+        "replacement": "!==",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 36,
+        "op": "str-empty",
+        "original": "'\u914d\u7f6e\u6587\u4ef6\u7f3a\u5c11\u5fc5\u586b\u9879: serverRoot'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 38,
+        "op": "rel-lte",
+        "original": "<=",
+        "replacement": "<",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 39,
+        "op": "str-empty",
+        "original": "'expiredSeconds \u987b\u4e3a\u6b63\u6574\u6570'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 41,
+        "op": "rel-gt",
+        "original": ">",
+        "replacement": ">=",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 42,
+        "op": "str-empty",
+        "original": "'expiredSeconds \u8d85\u51fa\u5141\u8bb8\u8303\u56f4 (0, '",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 42,
+        "op": "str-empty",
+        "original": "']'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 48,
+        "op": "str-empty",
+        "original": "'\u4e0d\u652f\u6301\u7684\u7b97\u6cd5\u5957\u4ef6: '",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 53,
+        "op": "str-empty",
+        "original": "'serverRoot'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 56,
+        "op": "str-empty",
+        "original": "'backupServerRoots['",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 56,
+        "op": "arith-plus",
+        "original": "+",
+        "replacement": "-",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 56,
+        "op": "int-plus1",
+        "original": "1",
+        "replacement": "2",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 56,
+        "op": "int-zero",
+        "original": "1",
+        "replacement": "0",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 56,
+        "op": "str-empty",
+        "original": "']'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 60,
+        "op": "rel-lte",
+        "original": "<=",
+        "replacement": "<",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 60,
+        "op": "logic",
+        "original": "||",
+        "replacement": "&&",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 60,
+        "op": "rel-lte",
+        "original": "<=",
+        "replacement": "<",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 60,
+        "op": "logic",
+        "original": "||",
+        "replacement": "&&",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 60,
+        "op": "rel-lt",
+        "original": "<",
+        "replacement": "<=",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 61,
+        "op": "str-empty",
+        "original": "'\u914d\u7f6e\u5b57\u6bb5 httpClient \u7c7b\u578b\u975e\u6cd5: \u8d85\u65f6\u987b\u4e3a\u6b63\u6574\u6570\uff0cmaxRetryCount \u987b\u975e\u8d1f'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 82,
+        "op": "eq-neg",
+        "original": "===",
+        "replacement": "!==",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 83,
+        "op": "str-empty",
+        "original": "' \u4e0d\u662f\u5408\u6cd5 URL: '",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 87,
+        "op": "eq-neg",
+        "original": "===",
+        "replacement": "!==",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 87,
+        "op": "bool-flip",
+        "original": "false",
+        "replacement": "true",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 87,
+        "op": "logic",
+        "original": "||",
+        "replacement": "&&",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 87,
+        "op": "not-del",
+        "original": "!",
+        "replacement": "",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 87,
+        "op": "str-empty",
+        "original": "'scheme'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 87,
+        "op": "str-empty",
+        "original": "'host'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 88,
+        "op": "str-empty",
+        "original": "' \u4e0d\u662f\u5408\u6cd5 URL: '",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 90,
+        "op": "str-empty",
+        "original": "'scheme'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 90,
+        "op": "str-empty",
+        "original": "'https'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 90,
+        "op": "neq-neg",
+        "original": "!==",
+        "replacement": "===",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 91,
+        "op": "str-empty",
+        "original": "' \u987b\u4e3a HTTPS \u7edd\u5bf9 URL: '",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 93,
+        "op": "str-empty",
+        "original": "'query'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 93,
+        "op": "logic",
+        "original": "||",
+        "replacement": "&&",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 93,
+        "op": "str-empty",
+        "original": "'fragment'",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 94,
+        "op": "str-empty",
+        "original": "' \u4e0d\u5f97\u542b query \u6216 fragment: '",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 97,
+        "op": "str-empty",
+        "original": "'path'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 98,
+        "op": "str-empty",
+        "original": "'port'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 98,
+        "op": "str-empty",
+        "original": "':'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 98,
+        "op": "str-empty",
+        "original": "'port'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 99,
+        "op": "str-empty",
+        "original": "'https://'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 99,
+        "op": "str-empty",
+        "original": "'host'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 100,
+        "op": "str-empty",
+        "original": "'/'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 101,
+        "op": "int-plus1",
+        "original": "1",
+        "replacement": "2",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 101,
+        "op": "int-zero",
+        "original": "1",
+        "replacement": "0",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 110,
+        "op": "eq-neg",
+        "original": "===",
+        "replacement": "!==",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 111,
+        "op": "str-empty",
+        "original": "'\u8bf7\u6c42\u8def\u5f84\u4e3a\u7a7a'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 114,
+        "op": "str-empty",
+        "original": "'http:'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 114,
+        "op": "eq-neg",
+        "original": "===",
+        "replacement": "!==",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 114,
+        "op": "logic",
+        "original": "||",
+        "replacement": "&&",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 114,
+        "op": "str-empty",
+        "original": "'https:'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 114,
+        "op": "eq-neg",
+        "original": "===",
+        "replacement": "!==",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 115,
+        "op": "str-empty",
+        "original": "'path \u4e0d\u5f97\u4e3a\u7edd\u5bf9 URL: '",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 117,
+        "op": "not-del",
+        "original": "!",
+        "replacement": "",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 117,
+        "op": "str-empty",
+        "original": "'/'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 118,
+        "op": "str-empty",
+        "original": "'path \u987b\u4ee5 / \u5f00\u5934: '",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 120,
+        "op": "str-empty",
+        "original": "'//'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 121,
+        "op": "str-empty",
+        "original": "'path \u4e0d\u5f97 // \u5f00\u5934: '",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 123,
+        "op": "str-empty",
+        "original": "'?'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 123,
+        "op": "logic",
+        "original": "||",
+        "replacement": "&&",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 123,
+        "op": "str-empty",
+        "original": "'#'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 124,
+        "op": "str-empty",
+        "original": "'path \u4e0d\u5f97\u542b query \u6216 fragment: '",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 133,
+        "op": "str-empty",
+        "original": "'/'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 133,
+        "op": "int-plus1",
+        "original": "1",
+        "replacement": "2",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 133,
+        "op": "int-zero",
+        "original": "1",
+        "replacement": "0",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 134,
+        "op": "str-empty",
+        "original": "'/'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 135,
+        "op": "str-empty",
+        "original": "'/'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 145,
+        "op": "str-empty",
+        "original": "'\u5bc6\u94a5\u89e3\u6790\u5931\u8d25: '",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 148,
+        "op": "neq-neg",
+        "original": "!==",
+        "replacement": "===",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 150,
+        "op": "str-empty",
+        "original": "'merchantPrivateKey \u4f4d\u5bbd %d \u4e0e\u5957\u4ef6 %s \u671f\u671b %d \u4e0d\u7b26'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 156,
+        "op": "neq-neg",
+        "original": "!==",
+        "replacement": "===",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/ConfigValidator.php",
+        "line": 158,
+        "op": "str-empty",
+        "original": "'platformPublicKey \u4f4d\u5bbd %d \u4e0e\u5957\u4ef6 %s \u671f\u671b %d \u4e0d\u7b26'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/HttpClientSettings.php",
+        "line": 12,
+        "op": "int-plus1",
+        "original": "10_000",
+        "replacement": "11",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/HttpClientSettings.php",
+        "line": 12,
+        "op": "int-zero",
+        "original": "10_000",
+        "replacement": "0",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/HttpClientSettings.php",
+        "line": 13,
+        "op": "int-plus1",
+        "original": "30_000",
+        "replacement": "31",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/HttpClientSettings.php",
+        "line": 13,
+        "op": "int-zero",
+        "original": "30_000",
+        "replacement": "0",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/HttpClientSettings.php",
+        "line": 14,
+        "op": "int-plus1",
+        "original": "3",
+        "replacement": "4",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/HttpClientSettings.php",
+        "line": 14,
+        "op": "int-zero",
+        "original": "3",
+        "replacement": "0",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 12,
+        "op": "str-empty",
+        "original": "'WOP_SDK_CONFIG'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 13,
+        "op": "str-empty",
+        "original": "'WOP_SDK_CONFIG_FILE'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 14,
+        "op": "str-empty",
+        "original": "'classpath:'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 15,
+        "op": "str-empty",
+        "original": "'config/wopSdkConfig.json'",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 29,
+        "op": "str-empty",
+        "original": "'cacheKey'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 29,
+        "op": "str-empty",
+        "original": "'reader'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 37,
+        "op": "str-empty",
+        "original": "'classpath:'",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 45,
+        "op": "str-empty",
+        "original": "'\\\\'",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 45,
+        "op": "str-empty",
+        "original": "'/'",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 46,
+        "op": "str-empty",
+        "original": "'file:'",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 47,
+        "op": "not-del",
+        "original": "!",
+        "replacement": "",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 48,
+        "op": "str-empty",
+        "original": "'\u914d\u7f6e\u6587\u4ef6\u4e0d\u53ef\u8bfb: '",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 51,
+        "op": "eq-neg",
+        "original": "===",
+        "replacement": "!==",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 51,
+        "op": "bool-flip",
+        "original": "false",
+        "replacement": "true",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 52,
+        "op": "str-empty",
+        "original": "'\u914d\u7f6e\u6587\u4ef6\u8bfb\u53d6\u5931\u8d25: '",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 79,
+        "op": "logic",
+        "original": "&&",
+        "replacement": "||",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 79,
+        "op": "neq-neg",
+        "original": "!==",
+        "replacement": "===",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 80,
+        "op": "bool-flip",
+        "original": "true",
+        "replacement": "false",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 83,
+        "op": "logic",
+        "original": "&&",
+        "replacement": "||",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 83,
+        "op": "neq-neg",
+        "original": "!==",
+        "replacement": "===",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 84,
+        "op": "bool-flip",
+        "original": "true",
+        "replacement": "false",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 87,
+        "op": "str-empty",
+        "original": "'.'",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 88,
+        "op": "str-empty",
+        "original": "'HOME'",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 88,
+        "op": "str-empty",
+        "original": "'USERPROFILE'",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 90,
+        "op": "str-empty",
+        "original": "'config'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 90,
+        "op": "str-empty",
+        "original": "'wopSdkConfig.json'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 91,
+        "op": "str-empty",
+        "original": "'wopSdkConfig.json'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 93,
+        "op": "neq-neg",
+        "original": "!==",
+        "replacement": "===",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 94,
+        "op": "str-empty",
+        "original": "'.wop'",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 94,
+        "op": "str-empty",
+        "original": "'wopSdkConfig.json'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 98,
+        "op": "bool-flip",
+        "original": "false",
+        "replacement": "true",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 103,
+        "op": "neq-neg",
+        "original": "!==",
+        "replacement": "===",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 103,
+        "op": "logic",
+        "original": "&&",
+        "replacement": "||",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 104,
+        "op": "bool-flip",
+        "original": "false",
+        "replacement": "true",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 109,
+        "op": "str-empty",
+        "original": "'\u672a\u627e\u5230\u53ef\u8bfb\u914d\u7f6e\u6587\u4ef6\uff0c\u5df2\u5c1d\u8bd5: '",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 109,
+        "op": "str-empty",
+        "original": "', '",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 116,
+        "op": "str-empty",
+        "original": "'\\\\'",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 116,
+        "op": "str-empty",
+        "original": "'/'",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 118,
+        "op": "str-empty",
+        "original": "'cacheKey'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 118,
+        "op": "str-empty",
+        "original": "'file:'",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 119,
+        "op": "str-empty",
+        "original": "'reader'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 120,
+        "op": "not-del",
+        "original": "!",
+        "replacement": "",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 122,
+        "op": "str-empty",
+        "original": "'\u663e\u5f0f\u914d\u7f6e\u6587\u4ef6\u4e0d\u53ef\u8bfb: '",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 123,
+        "op": "str-empty",
+        "original": "'\u914d\u7f6e\u6587\u4ef6\u4e0d\u53ef\u8bfb: '",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 127,
+        "op": "eq-neg",
+        "original": "===",
+        "replacement": "!==",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 127,
+        "op": "bool-flip",
+        "original": "false",
+        "replacement": "true",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 128,
+        "op": "str-empty",
+        "original": "'\u914d\u7f6e\u6587\u4ef6\u8bfb\u53d6\u5931\u8d25: '",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 139,
+        "op": "eq-neg",
+        "original": "===",
+        "replacement": "!==",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 139,
+        "op": "logic",
+        "original": "||",
+        "replacement": "&&",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 139,
+        "op": "not-del",
+        "original": "!",
+        "replacement": "",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 140,
+        "op": "str-empty",
+        "original": "'classpath \u8d44\u6e90\u4e0d\u5b58\u5728: '",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 143,
+        "op": "eq-neg",
+        "original": "===",
+        "replacement": "!==",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 143,
+        "op": "bool-flip",
+        "original": "false",
+        "replacement": "true",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 144,
+        "op": "str-empty",
+        "original": "'classpath \u8d44\u6e90\u8bfb\u53d6\u5931\u8d25: '",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 152,
+        "op": "int-plus1",
+        "original": "2",
+        "replacement": "3",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 152,
+        "op": "int-zero",
+        "original": "2",
+        "replacement": "0",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/WopConfigLoader.php",
+        "line": 153,
+        "op": "str-empty",
+        "original": "'/'",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/WopSdkConfig.php",
+        "line": 34,
+        "op": "str-empty",
+        "original": "'WopSdkConfig[appKey='",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/WopSdkConfig.php",
+        "line": 35,
+        "op": "str-empty",
+        "original": "', suite='",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/WopSdkConfig.php",
+        "line": 36,
+        "op": "str-empty",
+        "original": "', merchantPrivateKey=****, platformPublicKey=****'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Config/WopSdkConfig.php",
+        "line": 37,
+        "op": "str-empty",
+        "original": "', serverRoot='",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/WopSdkConfig.php",
+        "line": 38,
+        "op": "str-empty",
+        "original": "', backupServerRoots='",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/WopSdkConfig.php",
+        "line": 39,
+        "op": "str-empty",
+        "original": "', expiredSeconds='",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/WopSdkConfig.php",
+        "line": 40,
+        "op": "str-empty",
+        "original": "', httpClient='",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/WopSdkConfig.php",
+        "line": 41,
+        "op": "str-empty",
+        "original": "'connectTimeout'",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/WopSdkConfig.php",
+        "line": 42,
+        "op": "str-empty",
+        "original": "'readTimeout'",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/WopSdkConfig.php",
+        "line": 43,
+        "op": "str-empty",
+        "original": "'maxRetryCount'",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Config/WopSdkConfig.php",
+        "line": 45,
+        "op": "str-empty",
+        "original": "']'",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
     },
     {
         "file": "src/ContentDigest.php",
@@ -1009,7 +3790,7 @@
     },
     {
         "file": "src/ContentDigest.php",
-        "line": 21,
+        "line": 23,
         "op": "str-empty",
         "original": "'sha256'",
         "replacement": "''",
@@ -1018,7 +3799,7 @@
     },
     {
         "file": "src/ContentDigest.php",
-        "line": 29,
+        "line": 31,
         "op": "str-empty",
         "original": "' '",
         "replacement": "''",
@@ -1027,7 +3808,7 @@
     },
     {
         "file": "src/ContentDigest.php",
-        "line": 37,
+        "line": 39,
         "op": "str-empty",
         "original": "' '",
         "replacement": "''",
@@ -1036,7 +3817,7 @@
     },
     {
         "file": "src/ContentDigest.php",
-        "line": 38,
+        "line": 40,
         "op": "neq-neg",
         "original": "!==",
         "replacement": "===",
@@ -1045,7 +3826,7 @@
     },
     {
         "file": "src/ContentDigest.php",
-        "line": 38,
+        "line": 40,
         "op": "int-plus1",
         "original": "2",
         "replacement": "3",
@@ -1054,7 +3835,7 @@
     },
     {
         "file": "src/ContentDigest.php",
-        "line": 38,
+        "line": 40,
         "op": "int-zero",
         "original": "2",
         "replacement": "0",
@@ -1063,7 +3844,7 @@
     },
     {
         "file": "src/ContentDigest.php",
-        "line": 38,
+        "line": 40,
         "op": "logic",
         "original": "||",
         "replacement": "&&",
@@ -1072,7 +3853,7 @@
     },
     {
         "file": "src/ContentDigest.php",
-        "line": 38,
+        "line": 40,
         "op": "eq-neg",
         "original": "===",
         "replacement": "!==",
@@ -1081,7 +3862,7 @@
     },
     {
         "file": "src/ContentDigest.php",
-        "line": 38,
+        "line": 40,
         "op": "logic",
         "original": "||",
         "replacement": "&&",
@@ -1090,7 +3871,7 @@
     },
     {
         "file": "src/ContentDigest.php",
-        "line": 38,
+        "line": 40,
         "op": "int-plus1",
         "original": "1",
         "replacement": "2",
@@ -1099,7 +3880,7 @@
     },
     {
         "file": "src/ContentDigest.php",
-        "line": 38,
+        "line": 40,
         "op": "int-zero",
         "original": "1",
         "replacement": "0",
@@ -1108,7 +3889,7 @@
     },
     {
         "file": "src/ContentDigest.php",
-        "line": 38,
+        "line": 40,
         "op": "eq-neg",
         "original": "===",
         "replacement": "!==",
@@ -1117,7 +3898,7 @@
     },
     {
         "file": "src/ContentDigest.php",
-        "line": 39,
+        "line": 41,
         "op": "str-empty",
         "original": "'x-wop-content-digest \u683c\u5f0f\u9519\u8bef\uff08\u5e94\u4e3a <alg> \u6070\u4e00\u7a7a\u683c <hex>\uff09: '",
         "replacement": "''",
@@ -1126,7 +3907,7 @@
     },
     {
         "file": "src/ContentDigest.php",
-        "line": 43,
+        "line": 45,
         "op": "eq-neg",
         "original": "===",
         "replacement": "!==",
@@ -1135,7 +3916,7 @@
     },
     {
         "file": "src/ContentDigest.php",
-        "line": 44,
+        "line": 46,
         "op": "not-del",
         "original": "!",
         "replacement": "",
@@ -1144,7 +3925,7 @@
     },
     {
         "file": "src/ContentDigest.php",
-        "line": 44,
+        "line": 46,
         "op": "bool-flip",
         "original": "true",
         "replacement": "false",
@@ -1153,7 +3934,7 @@
     },
     {
         "file": "src/ContentDigest.php",
-        "line": 45,
+        "line": 47,
         "op": "str-empty",
         "original": "'x-wop-content-digest \u7b97\u6cd5\u6807\u7b7e\u4e0e\u5957\u4ef6\u65cf\u4e0d\u7b26: '",
         "replacement": "''",
@@ -1162,7 +3943,7 @@
     },
     {
         "file": "src/ContentDigest.php",
-        "line": 47,
+        "line": 49,
         "op": "not-del",
         "original": "!",
         "replacement": "",
@@ -1171,7 +3952,7 @@
     },
     {
         "file": "src/ContentDigest.php",
-        "line": 47,
+        "line": 49,
         "op": "logic",
         "original": "||",
         "replacement": "&&",
@@ -1180,7 +3961,7 @@
     },
     {
         "file": "src/ContentDigest.php",
-        "line": 47,
+        "line": 49,
         "op": "neq-neg",
         "original": "!==",
         "replacement": "===",
@@ -1189,7 +3970,7 @@
     },
     {
         "file": "src/ContentDigest.php",
-        "line": 47,
+        "line": 49,
         "op": "logic",
         "original": "||",
         "replacement": "&&",
@@ -1198,7 +3979,7 @@
     },
     {
         "file": "src/ContentDigest.php",
-        "line": 47,
+        "line": 49,
         "op": "neq-neg",
         "original": "!==",
         "replacement": "===",
@@ -1207,7 +3988,7 @@
     },
     {
         "file": "src/ContentDigest.php",
-        "line": 47,
+        "line": 49,
         "op": "int-plus1",
         "original": "64",
         "replacement": "65",
@@ -1216,7 +3997,7 @@
     },
     {
         "file": "src/ContentDigest.php",
-        "line": 47,
+        "line": 49,
         "op": "int-zero",
         "original": "64",
         "replacement": "0",
@@ -1225,7 +4006,7 @@
     },
     {
         "file": "src/ContentDigest.php",
-        "line": 48,
+        "line": 50,
         "op": "str-empty",
         "original": "'x-wop-content-digest \u6458\u8981\u683c\u5f0f\u9519\u8bef\uff08\u987b 64 \u4f4d\u5c0f\u5199 hex\uff09: '",
         "replacement": "''",
@@ -1234,7 +4015,7 @@
     },
     {
         "file": "src/ContentDigest.php",
-        "line": 50,
+        "line": 52,
         "op": "bool-flip",
         "original": "true",
         "replacement": "false",
@@ -1243,7 +4024,7 @@
     },
     {
         "file": "src/ContentDigest.php",
-        "line": 58,
+        "line": 60,
         "op": "eq-neg",
         "original": "===",
         "replacement": "!==",
@@ -1252,16 +4033,7 @@
     },
     {
         "file": "src/ContentDigest.php",
-        "line": 59,
-        "op": "bool-flip",
-        "original": "false",
-        "replacement": "true",
-        "verdict": "KILLED",
-        "note": "exit=1"
-    },
-    {
-        "file": "src/ContentDigest.php",
-        "line": 64,
+        "line": 61,
         "op": "bool-flip",
         "original": "false",
         "replacement": "true",
@@ -1271,6 +4043,15 @@
     {
         "file": "src/ContentDigest.php",
         "line": 66,
+        "op": "bool-flip",
+        "original": "false",
+        "replacement": "true",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/ContentDigest.php",
+        "line": 68,
         "op": "str-empty",
         "original": "' '",
         "replacement": "''",
@@ -1297,7 +4078,7 @@
     },
     {
         "file": "src/DekPayload.php",
-        "line": 20,
+        "line": 21,
         "op": "str-empty",
         "original": "'WOP-SM2-SM3'",
         "replacement": "''",
@@ -1306,7 +4087,7 @@
     },
     {
         "file": "src/DekPayload.php",
-        "line": 25,
+        "line": 26,
         "op": "int-plus1",
         "original": "32",
         "replacement": "33",
@@ -1315,7 +4096,7 @@
     },
     {
         "file": "src/DekPayload.php",
-        "line": 25,
+        "line": 26,
         "op": "int-zero",
         "original": "32",
         "replacement": "0",
@@ -1324,7 +4105,7 @@
     },
     {
         "file": "src/DekPayload.php",
-        "line": 26,
+        "line": 27,
         "op": "int-plus1",
         "original": "16",
         "replacement": "17",
@@ -1333,7 +4114,7 @@
     },
     {
         "file": "src/DekPayload.php",
-        "line": 26,
+        "line": 27,
         "op": "int-zero",
         "original": "16",
         "replacement": "0",
@@ -1342,7 +4123,7 @@
     },
     {
         "file": "src/DekPayload.php",
-        "line": 29,
+        "line": 30,
         "op": "int-plus1",
         "original": "12",
         "replacement": "13",
@@ -1351,7 +4132,7 @@
     },
     {
         "file": "src/DekPayload.php",
-        "line": 29,
+        "line": 30,
         "op": "int-zero",
         "original": "12",
         "replacement": "0",
@@ -1360,7 +4141,7 @@
     },
     {
         "file": "src/DekPayload.php",
-        "line": 40,
+        "line": 47,
         "op": "str-empty",
         "original": "'$'",
         "replacement": "''",
@@ -1369,7 +4150,7 @@
     },
     {
         "file": "src/DekPayload.php",
-        "line": 40,
+        "line": 47,
         "op": "str-empty",
         "original": "'$'",
         "replacement": "''",
@@ -1378,7 +4159,7 @@
     },
     {
         "file": "src/DekPayload.php",
-        "line": 48,
+        "line": 55,
         "op": "eq-neg",
         "original": "===",
         "replacement": "!==",
@@ -1387,7 +4168,7 @@
     },
     {
         "file": "src/DekPayload.php",
-        "line": 60,
+        "line": 67,
         "op": "str-empty",
         "original": "'$'",
         "replacement": "''",
@@ -1396,7 +4177,7 @@
     },
     {
         "file": "src/DekPayload.php",
-        "line": 61,
+        "line": 68,
         "op": "neq-neg",
         "original": "!==",
         "replacement": "===",
@@ -1405,7 +4186,7 @@
     },
     {
         "file": "src/DekPayload.php",
-        "line": 61,
+        "line": 68,
         "op": "int-plus1",
         "original": "3",
         "replacement": "4",
@@ -1414,7 +4195,7 @@
     },
     {
         "file": "src/DekPayload.php",
-        "line": 61,
+        "line": 68,
         "op": "int-zero",
         "original": "3",
         "replacement": "0",
@@ -1423,7 +4204,7 @@
     },
     {
         "file": "src/DekPayload.php",
-        "line": 62,
+        "line": 69,
         "op": "str-empty",
         "original": "'DEK \u8f7d\u8377\u683c\u5f0f\u9519\u8bef\uff08\u5e94\u4e3a alg$key$iv\uff09'",
         "replacement": "''",
@@ -1432,7 +4213,7 @@
     },
     {
         "file": "src/DekPayload.php",
-        "line": 65,
+        "line": 72,
         "op": "eq-neg",
         "original": "===",
         "replacement": "!==",
@@ -1441,7 +4222,7 @@
     },
     {
         "file": "src/DekPayload.php",
-        "line": 65,
+        "line": 72,
         "op": "logic",
         "original": "||",
         "replacement": "&&",
@@ -1450,7 +4231,7 @@
     },
     {
         "file": "src/DekPayload.php",
-        "line": 65,
+        "line": 72,
         "op": "eq-neg",
         "original": "===",
         "replacement": "!==",
@@ -1459,7 +4240,7 @@
     },
     {
         "file": "src/DekPayload.php",
-        "line": 65,
+        "line": 72,
         "op": "logic",
         "original": "||",
         "replacement": "&&",
@@ -1468,7 +4249,7 @@
     },
     {
         "file": "src/DekPayload.php",
-        "line": 65,
+        "line": 72,
         "op": "eq-neg",
         "original": "===",
         "replacement": "!==",
@@ -1477,7 +4258,7 @@
     },
     {
         "file": "src/DekPayload.php",
-        "line": 66,
+        "line": 73,
         "op": "str-empty",
         "original": "'DEK \u8f7d\u8377\u683c\u5f0f\u9519\u8bef\uff08\u5b58\u5728\u7a7a\u6bb5\uff09'",
         "replacement": "''",
@@ -1486,7 +4267,7 @@
     },
     {
         "file": "src/DekPayload.php",
-        "line": 69,
+        "line": 76,
         "op": "eq-neg",
         "original": "===",
         "replacement": "!==",
@@ -1495,7 +4276,7 @@
     },
     {
         "file": "src/DekPayload.php",
-        "line": 70,
+        "line": 77,
         "op": "str-empty",
         "original": "'DEK \u8f7d\u8377 alg \u4e0d\u5728\u652f\u6301\u5217\u8868\uff08AES-256-GCM/SM4-GCM\uff09: '",
         "replacement": "''",
@@ -1504,7 +4285,7 @@
     },
     {
         "file": "src/DekPayload.php",
-        "line": 74,
+        "line": 81,
         "op": "neq-neg",
         "original": "!==",
         "replacement": "===",
@@ -1513,7 +4294,7 @@
     },
     {
         "file": "src/DekPayload.php",
-        "line": 75,
+        "line": 82,
         "op": "str-empty",
         "original": "'DEK \u8f7d\u8377 alg '",
         "replacement": "''",
@@ -1522,7 +4303,7 @@
     },
     {
         "file": "src/DekPayload.php",
-        "line": 75,
+        "line": 82,
         "op": "str-empty",
         "original": "' \u5bc6\u94a5\u987b '",
         "replacement": "''",
@@ -1531,7 +4312,7 @@
     },
     {
         "file": "src/DekPayload.php",
-        "line": 75,
+        "line": 82,
         "op": "str-empty",
         "original": "' \u5b57\u8282\uff0c\u5b9e\u9645 '",
         "replacement": "''",
@@ -1540,7 +4321,7 @@
     },
     {
         "file": "src/DekPayload.php",
-        "line": 77,
+        "line": 84,
         "op": "neq-neg",
         "original": "!==",
         "replacement": "===",
@@ -1549,7 +4330,7 @@
     },
     {
         "file": "src/DekPayload.php",
-        "line": 78,
+        "line": 85,
         "op": "str-empty",
         "original": "'DEK \u8f7d\u8377 iv \u987b '",
         "replacement": "''",
@@ -1558,7 +4339,7 @@
     },
     {
         "file": "src/DekPayload.php",
-        "line": 78,
+        "line": 85,
         "op": "str-empty",
         "original": "' \u5b57\u8282\uff0c\u5b9e\u9645 '",
         "replacement": "''",
@@ -1594,7 +4375,7 @@
     },
     {
         "file": "src/EncryptHeader.php",
-        "line": 26,
+        "line": 31,
         "op": "eq-neg",
         "original": "===",
         "replacement": "!==",
@@ -1603,7 +4384,7 @@
     },
     {
         "file": "src/EncryptHeader.php",
-        "line": 34,
+        "line": 39,
         "op": "eq-neg",
         "original": "===",
         "replacement": "!==",
@@ -1612,7 +4393,7 @@
     },
     {
         "file": "src/EncryptHeader.php",
-        "line": 34,
+        "line": 39,
         "op": "logic",
         "original": "||",
         "replacement": "&&",
@@ -1621,7 +4402,7 @@
     },
     {
         "file": "src/EncryptHeader.php",
-        "line": 34,
+        "line": 39,
         "op": "eq-neg",
         "original": "===",
         "replacement": "!==",
@@ -1630,7 +4411,7 @@
     },
     {
         "file": "src/EncryptHeader.php",
-        "line": 37,
+        "line": 42,
         "op": "str-empty",
         "original": "';'",
         "replacement": "''",
@@ -1639,7 +4420,7 @@
     },
     {
         "file": "src/EncryptHeader.php",
-        "line": 41,
+        "line": 46,
         "op": "int-plus1",
         "original": "1",
         "replacement": "2",
@@ -1648,7 +4429,7 @@
     },
     {
         "file": "src/EncryptHeader.php",
-        "line": 41,
+        "line": 46,
         "op": "int-zero",
         "original": "1",
         "replacement": "0",
@@ -1657,7 +4438,7 @@
     },
     {
         "file": "src/EncryptHeader.php",
-        "line": 42,
+        "line": 47,
         "op": "str-empty",
         "original": "'dek='",
         "replacement": "''",
@@ -1666,7 +4447,7 @@
     },
     {
         "file": "src/EncryptHeader.php",
-        "line": 42,
+        "line": 47,
         "op": "int-plus1",
         "original": "4",
         "replacement": "5",
@@ -1675,7 +4456,7 @@
     },
     {
         "file": "src/EncryptHeader.php",
-        "line": 42,
+        "line": 47,
         "op": "int-zero",
         "original": "4",
         "replacement": "0",
@@ -1684,7 +4465,7 @@
     },
     {
         "file": "src/EncryptHeader.php",
-        "line": 42,
+        "line": 47,
         "op": "eq-neg",
         "original": "===",
         "replacement": "!==",
@@ -1693,7 +4474,7 @@
     },
     {
         "file": "src/EncryptHeader.php",
-        "line": 43,
+        "line": 48,
         "op": "int-plus1",
         "original": "4",
         "replacement": "5",
@@ -1702,7 +4483,7 @@
     },
     {
         "file": "src/EncryptHeader.php",
-        "line": 43,
+        "line": 48,
         "op": "int-zero",
         "original": "4",
         "replacement": "0",
@@ -1711,7 +4492,7 @@
     },
     {
         "file": "src/EncryptHeader.php",
-        "line": 47,
+        "line": 52,
         "op": "neq-neg",
         "original": "!==",
         "replacement": "===",
@@ -1720,7 +4501,7 @@
     },
     {
         "file": "src/EncryptHeader.php",
-        "line": 47,
+        "line": 52,
         "op": "logic",
         "original": "&&",
         "replacement": "||",
@@ -1729,7 +4510,7 @@
     },
     {
         "file": "src/EncryptHeader.php",
-        "line": 47,
+        "line": 52,
         "op": "neq-neg",
         "original": "!==",
         "replacement": "===",
@@ -1738,7 +4519,7 @@
     },
     {
         "file": "src/EncryptHeader.php",
-        "line": 48,
+        "line": 53,
         "op": "str-empty",
         "original": "'x-wop-encrypt dek \u6bb5\u987b\u4e3a base64url \u65e0\u586b\u5145'",
         "replacement": "''",
@@ -1747,7 +4528,7 @@
     },
     {
         "file": "src/EncryptHeader.php",
-        "line": 55,
+        "line": 61,
         "op": "eq-neg",
         "original": "===",
         "replacement": "!==",
@@ -1756,7 +4537,7 @@
     },
     {
         "file": "src/EncryptHeader.php",
-        "line": 55,
+        "line": 61,
         "op": "logic",
         "original": "||",
         "replacement": "&&",
@@ -1765,7 +4546,7 @@
     },
     {
         "file": "src/EncryptHeader.php",
-        "line": 55,
+        "line": 61,
         "op": "eq-neg",
         "original": "===",
         "replacement": "!==",
@@ -1774,7 +4555,7 @@
     },
     {
         "file": "src/EncryptHeader.php",
-        "line": 58,
+        "line": 64,
         "op": "str-empty",
         "original": "'\u4e0d\u652f\u6301\u7684\u52a0\u5bc6\u7ea7\u522b level='",
         "replacement": "''",
@@ -1783,7 +4564,7 @@
     },
     {
         "file": "src/EncryptHeader.php",
-        "line": 58,
+        "line": 64,
         "op": "str-empty",
         "original": "'\uff0c\u4ec5\u652f\u6301 L0/L2'",
         "replacement": "''",
@@ -1792,7 +4573,7 @@
     },
     {
         "file": "src/EncryptHeader.php",
-        "line": 63,
+        "line": 70,
         "op": "eq-neg",
         "original": "===",
         "replacement": "!==",
@@ -1801,7 +4582,7 @@
     },
     {
         "file": "src/EncryptHeader.php",
-        "line": 63,
+        "line": 70,
         "op": "str-empty",
         "original": "';dek='",
         "replacement": "''",
@@ -1810,7 +4591,7 @@
     },
     {
         "file": "src/EncryptedEnvelope.php",
-        "line": 20,
+        "line": 21,
         "op": "str-empty",
         "original": "'{\"encrypted\":\"'",
         "replacement": "''",
@@ -1819,25 +4600,25 @@
     },
     {
         "file": "src/EncryptedEnvelope.php",
-        "line": 20,
+        "line": 21,
         "op": "str-empty",
         "original": "'\"}'",
         "replacement": "''",
         "verdict": "KILLED",
-        "note": "exit=1"
+        "note": "exit=2"
     },
     {
         "file": "src/EncryptedEnvelope.php",
-        "line": 30,
+        "line": 31,
         "op": "bool-flip",
         "original": "true",
         "replacement": "false",
         "verdict": "KILLED",
-        "note": "exit=1"
+        "note": "exit=2"
     },
     {
         "file": "src/EncryptedEnvelope.php",
-        "line": 30,
+        "line": 31,
         "op": "int-plus1",
         "original": "512",
         "replacement": "513",
@@ -1846,7 +4627,7 @@
     },
     {
         "file": "src/EncryptedEnvelope.php",
-        "line": 30,
+        "line": 31,
         "op": "int-zero",
         "original": "512",
         "replacement": "0",
@@ -1855,7 +4636,7 @@
     },
     {
         "file": "src/EncryptedEnvelope.php",
-        "line": 32,
+        "line": 33,
         "op": "str-empty",
         "original": "'L2 \u4fe1\u5c01\u987b\u4e3a JSON \u5bf9\u8c61'",
         "replacement": "''",
@@ -1864,7 +4645,7 @@
     },
     {
         "file": "src/EncryptedEnvelope.php",
-        "line": 34,
+        "line": 35,
         "op": "not-del",
         "original": "!",
         "replacement": "",
@@ -1873,7 +4654,7 @@
     },
     {
         "file": "src/EncryptedEnvelope.php",
-        "line": 35,
+        "line": 36,
         "op": "str-empty",
         "original": "'L2 \u4fe1\u5c01\u987b\u4e3a JSON \u5bf9\u8c61'",
         "replacement": "''",
@@ -1882,7 +4663,7 @@
     },
     {
         "file": "src/EncryptedEnvelope.php",
-        "line": 38,
+        "line": 39,
         "op": "neq-neg",
         "original": "!==",
         "replacement": "===",
@@ -1891,7 +4672,7 @@
     },
     {
         "file": "src/EncryptedEnvelope.php",
-        "line": 38,
+        "line": 39,
         "op": "logic",
         "original": "&&",
         "replacement": "||",
@@ -1900,7 +4681,7 @@
     },
     {
         "file": "src/EncryptedEnvelope.php",
-        "line": 39,
+        "line": 40,
         "op": "str-empty",
         "original": "'L2 \u4fe1\u5c01\u987b\u4e3a JSON \u5bf9\u8c61'",
         "replacement": "''",
@@ -1909,25 +4690,25 @@
     },
     {
         "file": "src/EncryptedEnvelope.php",
-        "line": 41,
+        "line": 42,
         "op": "not-del",
         "original": "!",
         "replacement": "",
         "verdict": "KILLED",
-        "note": "exit=1"
-    },
-    {
-        "file": "src/EncryptedEnvelope.php",
-        "line": 41,
-        "op": "str-empty",
-        "original": "'encrypted'",
-        "replacement": "''",
-        "verdict": "KILLED",
-        "note": "exit=1"
+        "note": "exit=2"
     },
     {
         "file": "src/EncryptedEnvelope.php",
         "line": 42,
+        "op": "str-empty",
+        "original": "'encrypted'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/EncryptedEnvelope.php",
+        "line": 43,
         "op": "str-empty",
         "original": "'L2 \u4fe1\u5c01\u7f3a\u5c11 encrypted \u5b57\u6bb5'",
         "replacement": "''",
@@ -1936,7 +4717,7 @@
     },
     {
         "file": "src/EncryptedEnvelope.php",
-        "line": 44,
+        "line": 45,
         "op": "str-empty",
         "original": "'encrypted'",
         "replacement": "''",
@@ -1945,7 +4726,7 @@
     },
     {
         "file": "src/EncryptedEnvelope.php",
-        "line": 45,
+        "line": 46,
         "op": "not-del",
         "original": "!",
         "replacement": "",
@@ -1954,7 +4735,7 @@
     },
     {
         "file": "src/EncryptedEnvelope.php",
-        "line": 45,
+        "line": 46,
         "op": "logic",
         "original": "||",
         "replacement": "&&",
@@ -1963,7 +4744,7 @@
     },
     {
         "file": "src/EncryptedEnvelope.php",
-        "line": 45,
+        "line": 46,
         "op": "eq-neg",
         "original": "===",
         "replacement": "!==",
@@ -1972,7 +4753,7 @@
     },
     {
         "file": "src/EncryptedEnvelope.php",
-        "line": 46,
+        "line": 47,
         "op": "str-empty",
         "original": "'L2 \u4fe1\u5c01 encrypted \u5b57\u6bb5\u987b\u4e3a\u975e\u7a7a\u5b57\u7b26\u4e32'",
         "replacement": "''",
@@ -1986,7 +4767,322 @@
         "original": "===",
         "replacement": "!==",
         "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/RequestId.php",
+        "line": 27,
+        "op": "neq-neg",
+        "original": "!==",
+        "replacement": "===",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/RequestId.php",
+        "line": 30,
+        "op": "int-plus1",
+        "original": "16",
+        "replacement": "17",
+        "verdict": "KILLED",
         "note": "exit=1"
+    },
+    {
+        "file": "src/RequestId.php",
+        "line": 30,
+        "op": "int-zero",
+        "original": "16",
+        "replacement": "0",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/RequestId.php",
+        "line": 31,
+        "op": "int-plus1",
+        "original": "6",
+        "replacement": "7",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/RequestId.php",
+        "line": 31,
+        "op": "int-zero",
+        "original": "6",
+        "replacement": "0",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/RequestId.php",
+        "line": 31,
+        "op": "int-plus1",
+        "original": "6",
+        "replacement": "7",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/RequestId.php",
+        "line": 31,
+        "op": "int-zero",
+        "original": "6",
+        "replacement": "0",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/RequestId.php",
+        "line": 31,
+        "op": "int-plus1",
+        "original": "0x0f",
+        "replacement": "1",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/RequestId.php",
+        "line": 31,
+        "op": "int-zero",
+        "original": "0x0f",
+        "replacement": "0",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/RequestId.php",
+        "line": 31,
+        "op": "int-plus1",
+        "original": "0x40",
+        "replacement": "1",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/RequestId.php",
+        "line": 31,
+        "op": "int-zero",
+        "original": "0x40",
+        "replacement": "0",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/RequestId.php",
+        "line": 32,
+        "op": "int-plus1",
+        "original": "8",
+        "replacement": "9",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/RequestId.php",
+        "line": 32,
+        "op": "int-zero",
+        "original": "8",
+        "replacement": "0",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/RequestId.php",
+        "line": 32,
+        "op": "int-plus1",
+        "original": "8",
+        "replacement": "9",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/RequestId.php",
+        "line": 32,
+        "op": "int-zero",
+        "original": "8",
+        "replacement": "0",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/RequestId.php",
+        "line": 32,
+        "op": "int-plus1",
+        "original": "0x3f",
+        "replacement": "1",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/RequestId.php",
+        "line": 32,
+        "op": "int-zero",
+        "original": "0x3f",
+        "replacement": "0",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/RequestId.php",
+        "line": 32,
+        "op": "int-plus1",
+        "original": "0x80",
+        "replacement": "1",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/RequestId.php",
+        "line": 32,
+        "op": "int-zero",
+        "original": "0x80",
+        "replacement": "0",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/RequestId.php",
+        "line": 45,
+        "op": "eq-neg",
+        "original": "===",
+        "replacement": "!==",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/RequestId.php",
+        "line": 45,
+        "op": "logic",
+        "original": "||",
+        "replacement": "&&",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/RequestId.php",
+        "line": 45,
+        "op": "eq-neg",
+        "original": "===",
+        "replacement": "!==",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/RequestId.php",
+        "line": 48,
+        "op": "int-plus1",
+        "original": "1",
+        "replacement": "2",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/RequestId.php",
+        "line": 48,
+        "op": "int-zero",
+        "original": "1",
+        "replacement": "0",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/RequestId.php",
+        "line": 50,
+        "op": "rel-lt",
+        "original": "<",
+        "replacement": "<=",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/RequestId.php",
+        "line": 50,
+        "op": "int-plus1",
+        "original": "0x20",
+        "replacement": "1",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/RequestId.php",
+        "line": 50,
+        "op": "int-zero",
+        "original": "0x20",
+        "replacement": "0",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/RequestId.php",
+        "line": 50,
+        "op": "logic",
+        "original": "||",
+        "replacement": "&&",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/RequestId.php",
+        "line": 50,
+        "op": "eq-neg",
+        "original": "===",
+        "replacement": "!==",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/RequestId.php",
+        "line": 50,
+        "op": "int-plus1",
+        "original": "0x7F",
+        "replacement": "1",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/RequestId.php",
+        "line": 50,
+        "op": "int-zero",
+        "original": "0x7F",
+        "replacement": "0",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/RequestId.php",
+        "line": 55,
+        "op": "eq-neg",
+        "original": "===",
+        "replacement": "!==",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/RequestId.php",
+        "line": 59,
+        "op": "rel-gt",
+        "original": ">",
+        "replacement": ">=",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/RequestId.php",
+        "line": 59,
+        "op": "int-plus1",
+        "original": "128",
+        "replacement": "129",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/RequestId.php",
+        "line": 59,
+        "op": "int-zero",
+        "original": "128",
+        "replacement": "0",
+        "verdict": "KILLED",
+        "note": "exit=2"
     },
     {
         "file": "src/RsaOaep.php",
@@ -2004,7 +5100,7 @@
         "original": "32",
         "replacement": "33",
         "verdict": "KILLED",
-        "note": "exit=1"
+        "note": "exit=2"
     },
     {
         "file": "src/RsaOaep.php",
@@ -2017,7 +5113,7 @@
     },
     {
         "file": "src/RsaOaep.php",
-        "line": 42,
+        "line": 43,
         "op": "arith-plus",
         "original": "+",
         "replacement": "-",
@@ -2026,7 +5122,7 @@
     },
     {
         "file": "src/RsaOaep.php",
-        "line": 42,
+        "line": 43,
         "op": "int-plus1",
         "original": "7",
         "replacement": "8",
@@ -2035,7 +5131,7 @@
     },
     {
         "file": "src/RsaOaep.php",
-        "line": 42,
+        "line": 43,
         "op": "int-zero",
         "original": "7",
         "replacement": "0",
@@ -2044,7 +5140,7 @@
     },
     {
         "file": "src/RsaOaep.php",
-        "line": 42,
+        "line": 43,
         "op": "int-plus1",
         "original": "8",
         "replacement": "9",
@@ -2053,7 +5149,7 @@
     },
     {
         "file": "src/RsaOaep.php",
-        "line": 42,
+        "line": 43,
         "op": "int-zero",
         "original": "8",
         "replacement": "0",
@@ -2062,7 +5158,7 @@
     },
     {
         "file": "src/RsaOaep.php",
-        "line": 63,
+        "line": 64,
         "op": "neq-neg",
         "original": "!==",
         "replacement": "===",
@@ -2071,7 +5167,7 @@
     },
     {
         "file": "src/RsaOaep.php",
-        "line": 64,
+        "line": 65,
         "op": "str-empty",
         "original": "'OAEP seed \u987b\u4e3a '",
         "replacement": "''",
@@ -2080,7 +5176,7 @@
     },
     {
         "file": "src/RsaOaep.php",
-        "line": 64,
+        "line": 65,
         "op": "str-empty",
         "original": "' \u5b57\u8282'",
         "replacement": "''",
@@ -2089,7 +5185,7 @@
     },
     {
         "file": "src/RsaOaep.php",
-        "line": 67,
+        "line": 68,
         "op": "rel-gt",
         "original": ">",
         "replacement": ">=",
@@ -2098,7 +5194,7 @@
     },
     {
         "file": "src/RsaOaep.php",
-        "line": 67,
+        "line": 68,
         "op": "arith-minus",
         "original": "-",
         "replacement": "+",
@@ -2107,7 +5203,7 @@
     },
     {
         "file": "src/RsaOaep.php",
-        "line": 67,
+        "line": 68,
         "op": "int-plus1",
         "original": "2",
         "replacement": "3",
@@ -2116,34 +5212,7 @@
     },
     {
         "file": "src/RsaOaep.php",
-        "line": 67,
-        "op": "int-zero",
-        "original": "2",
-        "replacement": "0",
-        "verdict": "KILLED",
-        "note": "exit=1"
-    },
-    {
-        "file": "src/RsaOaep.php",
-        "line": 67,
-        "op": "arith-minus",
-        "original": "-",
-        "replacement": "+",
-        "verdict": "KILLED",
-        "note": "exit=1"
-    },
-    {
-        "file": "src/RsaOaep.php",
-        "line": 67,
-        "op": "int-plus1",
-        "original": "2",
-        "replacement": "3",
-        "verdict": "KILLED",
-        "note": "exit=2"
-    },
-    {
-        "file": "src/RsaOaep.php",
-        "line": 67,
+        "line": 68,
         "op": "int-zero",
         "original": "2",
         "replacement": "0",
@@ -2153,6 +5222,33 @@
     {
         "file": "src/RsaOaep.php",
         "line": 68,
+        "op": "arith-minus",
+        "original": "-",
+        "replacement": "+",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/RsaOaep.php",
+        "line": 68,
+        "op": "int-plus1",
+        "original": "2",
+        "replacement": "3",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/RsaOaep.php",
+        "line": 68,
+        "op": "int-zero",
+        "original": "2",
+        "replacement": "0",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/RsaOaep.php",
+        "line": 69,
         "op": "str-empty",
         "original": "'RSA-OAEP \u660e\u6587\u8d85\u957f'",
         "replacement": "''",
@@ -2161,7 +5257,7 @@
     },
     {
         "file": "src/RsaOaep.php",
-        "line": 70,
+        "line": 71,
         "op": "bool-flip",
         "original": "true",
         "replacement": "false",
@@ -2170,16 +5266,7 @@
     },
     {
         "file": "src/RsaOaep.php",
-        "line": 71,
-        "op": "arith-minus",
-        "original": "-",
-        "replacement": "+",
-        "verdict": "KILLED",
-        "note": "exit=1"
-    },
-    {
-        "file": "src/RsaOaep.php",
-        "line": 71,
+        "line": 72,
         "op": "arith-minus",
         "original": "-",
         "replacement": "+",
@@ -2188,93 +5275,57 @@
     },
     {
         "file": "src/RsaOaep.php",
-        "line": 71,
+        "line": 72,
+        "op": "arith-minus",
+        "original": "-",
+        "replacement": "+",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/RsaOaep.php",
+        "line": 72,
         "op": "int-plus1",
         "original": "2",
         "replacement": "3",
         "verdict": "KILLED",
-        "note": "exit=1"
+        "note": "exit=2"
     },
     {
         "file": "src/RsaOaep.php",
-        "line": 71,
+        "line": 72,
         "op": "int-zero",
         "original": "2",
         "replacement": "0",
         "verdict": "KILLED",
-        "note": "exit=1"
+        "note": "exit=2"
     },
     {
         "file": "src/RsaOaep.php",
-        "line": 71,
+        "line": 72,
         "op": "arith-minus",
         "original": "-",
         "replacement": "+",
         "verdict": "KILLED",
-        "note": "exit=1"
+        "note": "exit=2"
     },
     {
         "file": "src/RsaOaep.php",
-        "line": 71,
+        "line": 72,
         "op": "int-plus1",
         "original": "2",
         "replacement": "3",
         "verdict": "KILLED",
-        "note": "exit=1"
+        "note": "exit=2"
     },
     {
         "file": "src/RsaOaep.php",
-        "line": 71,
+        "line": 72,
         "op": "int-zero",
         "original": "2",
         "replacement": "0",
         "verdict": "KILLED",
         "note": "exit=2"
-    },
-    {
-        "file": "src/RsaOaep.php",
-        "line": 73,
-        "op": "bit-xor",
-        "original": "^",
-        "replacement": "|",
-        "verdict": "KILLED",
-        "note": "exit=2"
-    },
-    {
-        "file": "src/RsaOaep.php",
-        "line": 73,
-        "op": "arith-minus",
-        "original": "-",
-        "replacement": "+",
-        "verdict": "SURVIVED",
-        "note": ""
-    },
-    {
-        "file": "src/RsaOaep.php",
-        "line": 73,
-        "op": "arith-minus",
-        "original": "-",
-        "replacement": "+",
-        "verdict": "SURVIVED",
-        "note": ""
-    },
-    {
-        "file": "src/RsaOaep.php",
-        "line": 73,
-        "op": "int-plus1",
-        "original": "1",
-        "replacement": "2",
-        "verdict": "KILLED",
-        "note": "exit=2"
-    },
-    {
-        "file": "src/RsaOaep.php",
-        "line": 73,
-        "op": "int-zero",
-        "original": "1",
-        "replacement": "0",
-        "verdict": "SURVIVED",
-        "note": ""
     },
     {
         "file": "src/RsaOaep.php",
@@ -2287,7 +5338,52 @@
     },
     {
         "file": "src/RsaOaep.php",
-        "line": 82,
+        "line": 74,
+        "op": "arith-minus",
+        "original": "-",
+        "replacement": "+",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/RsaOaep.php",
+        "line": 74,
+        "op": "arith-minus",
+        "original": "-",
+        "replacement": "+",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/RsaOaep.php",
+        "line": 74,
+        "op": "int-plus1",
+        "original": "1",
+        "replacement": "2",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/RsaOaep.php",
+        "line": 74,
+        "op": "int-zero",
+        "original": "1",
+        "replacement": "0",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/RsaOaep.php",
+        "line": 75,
+        "op": "bit-xor",
+        "original": "^",
+        "replacement": "|",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/RsaOaep.php",
+        "line": 83,
         "op": "rel-lt",
         "original": "<",
         "replacement": "<=",
@@ -2296,7 +5392,7 @@
     },
     {
         "file": "src/RsaOaep.php",
-        "line": 83,
+        "line": 84,
         "op": "str-empty",
         "original": "'N'",
         "replacement": "''",
@@ -2305,7 +5401,7 @@
     },
     {
         "file": "src/RsaOaep.php",
-        "line": 83,
+        "line": 84,
         "op": "bool-flip",
         "original": "true",
         "replacement": "false",
@@ -2314,7 +5410,7 @@
     },
     {
         "file": "src/RsaOaep.php",
-        "line": 91,
+        "line": 93,
         "op": "neq-neg",
         "original": "!==",
         "replacement": "===",
@@ -2323,7 +5419,7 @@
     },
     {
         "file": "src/RsaOaep.php",
-        "line": 100,
+        "line": 102,
         "op": "str-empty",
         "original": "'RSA \u79c1\u94a5\u89e3\u6790\u5931\u8d25: '",
         "replacement": "''",
@@ -2332,7 +5428,7 @@
     },
     {
         "file": "src/RsaOaep.php",
-        "line": 108,
+        "line": 111,
         "op": "neq-neg",
         "original": "!==",
         "replacement": "===",
@@ -2341,7 +5437,7 @@
     },
     {
         "file": "src/RsaOaep.php",
-        "line": 114,
+        "line": 117,
         "op": "str-empty",
         "original": "'RSA \u516c\u94a5\u89e3\u6790\u5931\u8d25: '",
         "replacement": "''",
@@ -2350,7 +5446,7 @@
     },
     {
         "file": "src/RsaSigner.php",
-        "line": 43,
+        "line": 44,
         "op": "bool-flip",
         "original": "false",
         "replacement": "true",
@@ -2359,7 +5455,7 @@
     },
     {
         "file": "src/RsaSigner.php",
-        "line": 50,
+        "line": 52,
         "op": "neq-neg",
         "original": "!==",
         "replacement": "===",
@@ -2368,7 +5464,7 @@
     },
     {
         "file": "src/RsaSigner.php",
-        "line": 56,
+        "line": 58,
         "op": "str-empty",
         "original": "'RSA \u79c1\u94a5\u89e3\u6790\u5931\u8d25\uff08\u5e94\u4e3a PKCS8 PEM \u6216 Base64\uff09: '",
         "replacement": "''",
@@ -2377,7 +5473,7 @@
     },
     {
         "file": "src/RsaSigner.php",
-        "line": 64,
+        "line": 67,
         "op": "neq-neg",
         "original": "!==",
         "replacement": "===",
@@ -2386,7 +5482,7 @@
     },
     {
         "file": "src/RsaSigner.php",
-        "line": 70,
+        "line": 73,
         "op": "str-empty",
         "original": "'RSA \u516c\u94a5\u89e3\u6790\u5931\u8d25\uff08\u5e94\u4e3a SPKI PEM \u6216 Base64\uff09: '",
         "replacement": "''",
@@ -2791,7 +5887,7 @@
     },
     {
         "file": "src/SignHeader.php",
-        "line": 84,
+        "line": 85,
         "op": "not-del",
         "original": "!",
         "replacement": "",
@@ -2800,7 +5896,7 @@
     },
     {
         "file": "src/SignHeader.php",
-        "line": 85,
+        "line": 86,
         "op": "str-empty",
         "original": "'expiredSeconds \u975e\u6cd5: '",
         "replacement": "''",
@@ -2809,7 +5905,7 @@
     },
     {
         "file": "src/SignHeader.php",
-        "line": 88,
+        "line": 89,
         "op": "rel-lte",
         "original": "<=",
         "replacement": "<",
@@ -2818,7 +5914,7 @@
     },
     {
         "file": "src/SignHeader.php",
-        "line": 88,
+        "line": 89,
         "op": "logic",
         "original": "||",
         "replacement": "&&",
@@ -2827,7 +5923,7 @@
     },
     {
         "file": "src/SignHeader.php",
-        "line": 88,
+        "line": 89,
         "op": "rel-gt",
         "original": ">",
         "replacement": ">=",
@@ -2836,7 +5932,7 @@
     },
     {
         "file": "src/SignHeader.php",
-        "line": 89,
+        "line": 90,
         "op": "str-empty",
         "original": "'expiredSeconds \u8d85\u51fa\u5141\u8bb8\u8303\u56f4 (0, '",
         "replacement": "''",
@@ -2845,7 +5941,7 @@
     },
     {
         "file": "src/SignHeader.php",
-        "line": 89,
+        "line": 90,
         "op": "str-empty",
         "original": "']'",
         "replacement": "''",
@@ -2854,7 +5950,7 @@
     },
     {
         "file": "src/SignHeader.php",
-        "line": 98,
+        "line": 99,
         "op": "str-empty",
         "original": "';'",
         "replacement": "''",
@@ -2863,25 +5959,25 @@
     },
     {
         "file": "src/SignHeader.php",
-        "line": 100,
+        "line": 101,
         "op": "neq-neg",
         "original": "!==",
         "replacement": "===",
         "verdict": "KILLED",
-        "note": "exit=2"
-    },
-    {
-        "file": "src/SignHeader.php",
-        "line": 104,
-        "op": "eq-neg",
-        "original": "===",
-        "replacement": "!==",
-        "verdict": "KILLED",
-        "note": "exit=2"
+        "note": "exit=1"
     },
     {
         "file": "src/SignHeader.php",
         "line": 105,
+        "op": "eq-neg",
+        "original": "===",
+        "replacement": "!==",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/SignHeader.php",
+        "line": 106,
         "op": "str-empty",
         "original": "'signedHeaders \u4e3a\u7a7a'",
         "replacement": "''",
@@ -2892,7 +5988,7 @@
         "file": "src/Suite.php",
         "line": 13,
         "op": "str-empty",
-        "original": "'WOP-RSA3072-SHA256'",
+        "original": "'WOP-RSA2048-SHA256'",
         "replacement": "''",
         "verdict": "KILLED",
         "note": "exit=1"
@@ -2901,6 +5997,15 @@
         "file": "src/Suite.php",
         "line": 14,
         "op": "str-empty",
+        "original": "'WOP-RSA3072-SHA256'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Suite.php",
+        "line": 15,
+        "op": "str-empty",
         "original": "'WOP-RSA4096-SHA256'",
         "replacement": "''",
         "verdict": "KILLED",
@@ -2908,7 +6013,7 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 16,
+        "line": 17,
         "op": "str-empty",
         "original": "'WOP-SM2-SM3'",
         "replacement": "''",
@@ -2917,7 +6022,97 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 20,
+        "line": 21,
+        "op": "str-empty",
+        "original": "'WOP-RSA2048-SHA256'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Suite.php",
+        "line": 21,
+        "op": "str-empty",
+        "original": "'keyAlgorithm'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Suite.php",
+        "line": 21,
+        "op": "str-empty",
+        "original": "'RSA'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Suite.php",
+        "line": 21,
+        "op": "str-empty",
+        "original": "'keyLength'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Suite.php",
+        "line": 21,
+        "op": "int-plus1",
+        "original": "2048",
+        "replacement": "2049",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Suite.php",
+        "line": 21,
+        "op": "int-zero",
+        "original": "2048",
+        "replacement": "0",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Suite.php",
+        "line": 21,
+        "op": "str-empty",
+        "original": "'digestLabel'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Suite.php",
+        "line": 21,
+        "op": "str-empty",
+        "original": "'sha-256'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Suite.php",
+        "line": 21,
+        "op": "str-empty",
+        "original": "'dekAlg'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Suite.php",
+        "line": 21,
+        "op": "str-empty",
+        "original": "'AES-256-GCM'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Suite.php",
+        "line": 22,
         "op": "str-empty",
         "original": "'WOP-RSA3072-SHA256'",
         "replacement": "''",
@@ -2926,7 +6121,7 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 20,
+        "line": 22,
         "op": "str-empty",
         "original": "'keyAlgorithm'",
         "replacement": "''",
@@ -2935,7 +6130,7 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 20,
+        "line": 22,
         "op": "str-empty",
         "original": "'RSA'",
         "replacement": "''",
@@ -2944,7 +6139,7 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 20,
+        "line": 22,
         "op": "str-empty",
         "original": "'keyLength'",
         "replacement": "''",
@@ -2953,25 +6148,25 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 20,
+        "line": 22,
         "op": "int-plus1",
         "original": "3072",
         "replacement": "3073",
         "verdict": "KILLED",
-        "note": "exit=1"
+        "note": "exit=2"
     },
     {
         "file": "src/Suite.php",
-        "line": 20,
+        "line": 22,
         "op": "int-zero",
         "original": "3072",
         "replacement": "0",
         "verdict": "KILLED",
-        "note": "exit=1"
+        "note": "exit=2"
     },
     {
         "file": "src/Suite.php",
-        "line": 20,
+        "line": 22,
         "op": "str-empty",
         "original": "'digestLabel'",
         "replacement": "''",
@@ -2980,16 +6175,16 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 20,
+        "line": 22,
         "op": "str-empty",
         "original": "'sha-256'",
         "replacement": "''",
         "verdict": "KILLED",
-        "note": "exit=2"
+        "note": "exit=1"
     },
     {
         "file": "src/Suite.php",
-        "line": 20,
+        "line": 22,
         "op": "str-empty",
         "original": "'dekAlg'",
         "replacement": "''",
@@ -2998,7 +6193,7 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 20,
+        "line": 22,
         "op": "str-empty",
         "original": "'AES-256-GCM'",
         "replacement": "''",
@@ -3007,7 +6202,7 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 21,
+        "line": 23,
         "op": "str-empty",
         "original": "'WOP-RSA4096-SHA256'",
         "replacement": "''",
@@ -3016,7 +6211,7 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 21,
+        "line": 23,
         "op": "str-empty",
         "original": "'keyAlgorithm'",
         "replacement": "''",
@@ -3025,7 +6220,7 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 21,
+        "line": 23,
         "op": "str-empty",
         "original": "'RSA'",
         "replacement": "''",
@@ -3034,7 +6229,7 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 21,
+        "line": 23,
         "op": "str-empty",
         "original": "'keyLength'",
         "replacement": "''",
@@ -3043,7 +6238,7 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 21,
+        "line": 23,
         "op": "int-plus1",
         "original": "4096",
         "replacement": "4097",
@@ -3052,7 +6247,7 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 21,
+        "line": 23,
         "op": "int-zero",
         "original": "4096",
         "replacement": "0",
@@ -3061,7 +6256,7 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 21,
+        "line": 23,
         "op": "str-empty",
         "original": "'digestLabel'",
         "replacement": "''",
@@ -3070,7 +6265,7 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 21,
+        "line": 23,
         "op": "str-empty",
         "original": "'sha-256'",
         "replacement": "''",
@@ -3079,7 +6274,7 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 21,
+        "line": 23,
         "op": "str-empty",
         "original": "'dekAlg'",
         "replacement": "''",
@@ -3088,7 +6283,7 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 21,
+        "line": 23,
         "op": "str-empty",
         "original": "'AES-256-GCM'",
         "replacement": "''",
@@ -3097,7 +6292,16 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 25,
+        "line": 27,
+        "op": "str-empty",
+        "original": "'RSA2048'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Suite.php",
+        "line": 27,
         "op": "str-empty",
         "original": "'RSA3072'",
         "replacement": "''",
@@ -3106,7 +6310,7 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 25,
+        "line": 27,
         "op": "str-empty",
         "original": "'RSA4096'",
         "replacement": "''",
@@ -3115,7 +6319,7 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 25,
+        "line": 27,
         "op": "str-empty",
         "original": "'SM2'",
         "replacement": "''",
@@ -3124,7 +6328,7 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 26,
+        "line": 28,
         "op": "str-empty",
         "original": "'SHA256'",
         "replacement": "''",
@@ -3133,7 +6337,7 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 26,
+        "line": 28,
         "op": "str-empty",
         "original": "'SM3'",
         "replacement": "''",
@@ -3142,7 +6346,7 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 43,
+        "line": 46,
         "op": "eq-neg",
         "original": "===",
         "replacement": "!==",
@@ -3151,7 +6355,7 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 44,
+        "line": 47,
         "op": "str-empty",
         "original": "'securityReq \u683c\u5f0f\u9519\u8bef: \u7a7a\u503c'",
         "replacement": "''",
@@ -3160,7 +6364,7 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 46,
+        "line": 49,
         "op": "eq-neg",
         "original": "===",
         "replacement": "!==",
@@ -3169,7 +6373,7 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 47,
+        "line": 50,
         "op": "str-empty",
         "original": "'SM2-SM3 \u5957\u4ef6\u6682\u672a\u652f\u6301\uff0c\u89c1 README \u8def\u7ebf\u56fe'",
         "replacement": "''",
@@ -3178,16 +6382,16 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 49,
+        "line": 52,
         "op": "str-empty",
         "original": "'-'",
         "replacement": "''",
         "verdict": "KILLED",
-        "note": "exit=2"
+        "note": "exit=1"
     },
     {
         "file": "src/Suite.php",
-        "line": 50,
+        "line": 53,
         "op": "neq-neg",
         "original": "!==",
         "replacement": "===",
@@ -3196,7 +6400,7 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 50,
+        "line": 53,
         "op": "int-plus1",
         "original": "3",
         "replacement": "4",
@@ -3205,7 +6409,7 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 50,
+        "line": 53,
         "op": "int-zero",
         "original": "3",
         "replacement": "0",
@@ -3214,7 +6418,7 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 50,
+        "line": 53,
         "op": "logic",
         "original": "||",
         "replacement": "&&",
@@ -3223,7 +6427,7 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 50,
+        "line": 53,
         "op": "neq-neg",
         "original": "!==",
         "replacement": "===",
@@ -3232,7 +6436,7 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 50,
+        "line": 53,
         "op": "str-empty",
         "original": "'WOP'",
         "replacement": "''",
@@ -3241,7 +6445,7 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 51,
+        "line": 54,
         "op": "str-empty",
         "original": "'securityReq \u683c\u5f0f\u9519\u8bef\uff08\u5e94\u4e3a WOP-<\u5bc6\u94a5\u7b97\u6cd5>-<\u6458\u8981\u7b97\u6cd5>\uff09: '",
         "replacement": "''",
@@ -3250,7 +6454,7 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 54,
+        "line": 57,
         "op": "not-del",
         "original": "!",
         "replacement": "",
@@ -3259,7 +6463,7 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 54,
+        "line": 57,
         "op": "bool-flip",
         "original": "true",
         "replacement": "false",
@@ -3268,7 +6472,7 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 54,
+        "line": 57,
         "op": "logic",
         "original": "||",
         "replacement": "&&",
@@ -3277,7 +6481,7 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 54,
+        "line": 57,
         "op": "not-del",
         "original": "!",
         "replacement": "",
@@ -3286,7 +6490,7 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 54,
+        "line": 57,
         "op": "bool-flip",
         "original": "true",
         "replacement": "false",
@@ -3295,7 +6499,7 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 55,
+        "line": 58,
         "op": "str-empty",
         "original": "'\u4e0d\u652f\u6301\u7684\u7b97\u6cd5\u7ec4\u5408: '",
         "replacement": "''",
@@ -3304,7 +6508,7 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 59,
+        "line": 62,
         "op": "eq-neg",
         "original": "===",
         "replacement": "!==",
@@ -3313,7 +6517,7 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 60,
+        "line": 63,
         "op": "str-empty",
         "original": "'\u4e0d\u652f\u6301\u7684\u7b97\u6cd5\u7ec4\u5408\uff08\u56fd\u9645/\u56fd\u5bc6\u8de8\u65cf\u7981\u6b62\uff09: '",
         "replacement": "''",
@@ -3322,7 +6526,7 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 64,
+        "line": 67,
         "op": "str-empty",
         "original": "'keyAlgorithm'",
         "replacement": "''",
@@ -3331,7 +6535,7 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 65,
+        "line": 68,
         "op": "str-empty",
         "original": "'keyLength'",
         "replacement": "''",
@@ -3340,7 +6544,7 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 66,
+        "line": 69,
         "op": "str-empty",
         "original": "'digestLabel'",
         "replacement": "''",
@@ -3349,7 +6553,7 @@
     },
     {
         "file": "src/Suite.php",
-        "line": 67,
+        "line": 70,
         "op": "str-empty",
         "original": "'dekAlg'",
         "replacement": "''",
@@ -3358,7 +6562,7 @@
     },
     {
         "file": "src/Transport/CurlTransport.php",
-        "line": 15,
+        "line": 16,
         "op": "int-plus1",
         "original": "11",
         "replacement": "12",
@@ -3367,7 +6571,7 @@
     },
     {
         "file": "src/Transport/CurlTransport.php",
-        "line": 15,
+        "line": 16,
         "op": "int-zero",
         "original": "11",
         "replacement": "0",
@@ -3376,7 +6580,7 @@
     },
     {
         "file": "src/Transport/CurlTransport.php",
-        "line": 15,
+        "line": 16,
         "op": "int-plus1",
         "original": "20",
         "replacement": "21",
@@ -3385,7 +6589,7 @@
     },
     {
         "file": "src/Transport/CurlTransport.php",
-        "line": 15,
+        "line": 16,
         "op": "int-zero",
         "original": "20",
         "replacement": "0",
@@ -3394,7 +6598,7 @@
     },
     {
         "file": "src/Transport/CurlTransport.php",
-        "line": 17,
+        "line": 18,
         "op": "int-plus1",
         "original": "65536",
         "replacement": "65537",
@@ -3403,7 +6607,7 @@
     },
     {
         "file": "src/Transport/CurlTransport.php",
-        "line": 17,
+        "line": 18,
         "op": "int-zero",
         "original": "65536",
         "replacement": "0",
@@ -3412,34 +6616,106 @@
     },
     {
         "file": "src/Transport/CurlTransport.php",
-        "line": 32,
-        "op": "bool-flip",
-        "original": "false",
-        "replacement": "true",
+        "line": 29,
+        "op": "neq-neg",
+        "original": "!==",
+        "replacement": "===",
         "verdict": "KILLED",
-        "note": "exit=2"
+        "note": "exit=1"
     },
     {
         "file": "src/Transport/CurlTransport.php",
-        "line": 37,
-        "op": "int-plus1",
-        "original": "30",
-        "replacement": "31",
+        "line": 29,
+        "op": "logic",
+        "original": "&&",
+        "replacement": "||",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Transport/CurlTransport.php",
+        "line": 29,
+        "op": "rel-gt",
+        "original": ">",
+        "replacement": ">=",
         "verdict": "SURVIVED",
         "note": ""
     },
     {
         "file": "src/Transport/CurlTransport.php",
-        "line": 37,
+        "line": 30,
+        "op": "int-plus1",
+        "original": "10_000",
+        "replacement": "11",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Transport/CurlTransport.php",
+        "line": 30,
         "op": "int-zero",
-        "original": "30",
+        "original": "10_000",
         "replacement": "0",
         "verdict": "SURVIVED",
         "note": ""
     },
     {
         "file": "src/Transport/CurlTransport.php",
-        "line": 45,
+        "line": 36,
+        "op": "neq-neg",
+        "original": "!==",
+        "replacement": "===",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Transport/CurlTransport.php",
+        "line": 36,
+        "op": "logic",
+        "original": "&&",
+        "replacement": "||",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Transport/CurlTransport.php",
+        "line": 36,
+        "op": "rel-gt",
+        "original": ">",
+        "replacement": ">=",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Transport/CurlTransport.php",
+        "line": 37,
+        "op": "int-plus1",
+        "original": "30_000",
+        "replacement": "31",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Transport/CurlTransport.php",
+        "line": 37,
+        "op": "int-zero",
+        "original": "30_000",
+        "replacement": "0",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/Transport/CurlTransport.php",
+        "line": 49,
+        "op": "bool-flip",
+        "original": "false",
+        "replacement": "true",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/Transport/CurlTransport.php",
+        "line": 63,
         "op": "rel-gt",
         "original": ">",
         "replacement": ">=",
@@ -3448,7 +6724,7 @@
     },
     {
         "file": "src/Transport/CurlTransport.php",
-        "line": 46,
+        "line": 64,
         "op": "bool-flip",
         "original": "true",
         "replacement": "false",
@@ -3457,7 +6733,7 @@
     },
     {
         "file": "src/Transport/CurlTransport.php",
-        "line": 47,
+        "line": 65,
         "op": "int-plus1",
         "original": "1",
         "replacement": "2",
@@ -3466,7 +6742,7 @@
     },
     {
         "file": "src/Transport/CurlTransport.php",
-        "line": 47,
+        "line": 65,
         "op": "int-zero",
         "original": "1",
         "replacement": "0",
@@ -3475,7 +6751,7 @@
     },
     {
         "file": "src/Transport/CurlTransport.php",
-        "line": 59,
+        "line": 77,
         "op": "str-empty",
         "original": "'\u54cd\u5e94\u4f53\u8d85\u8fc7 '",
         "replacement": "''",
@@ -3484,7 +6760,7 @@
     },
     {
         "file": "src/Transport/CurlTransport.php",
-        "line": 59,
+        "line": 77,
         "op": "str-empty",
         "original": "' \u5b57\u8282\u4e0a\u9650'",
         "replacement": "''",
@@ -3493,25 +6769,25 @@
     },
     {
         "file": "src/Transport/CurlTransport.php",
-        "line": 61,
+        "line": 79,
         "op": "eq-neg",
         "original": "===",
         "replacement": "!==",
         "verdict": "KILLED",
-        "note": "exit=2"
+        "note": "exit=1"
     },
     {
         "file": "src/Transport/CurlTransport.php",
-        "line": 61,
+        "line": 79,
         "op": "bool-flip",
         "original": "false",
         "replacement": "true",
         "verdict": "KILLED",
-        "note": "exit=2"
+        "note": "exit=1"
     },
     {
         "file": "src/Transport/CurlTransport.php",
-        "line": 62,
+        "line": 80,
         "op": "str-empty",
         "original": "'\u4f20\u8f93\u5931\u8d25: '",
         "replacement": "''",
@@ -3520,7 +6796,7 @@
     },
     {
         "file": "src/Transport/CurlTransport.php",
-        "line": 72,
+        "line": 90,
         "op": "str-empty",
         "original": "'/\\r?\\n/'",
         "replacement": "''",
@@ -3529,7 +6805,7 @@
     },
     {
         "file": "src/Transport/CurlTransport.php",
-        "line": 73,
+        "line": 91,
         "op": "str-empty",
         "original": "':'",
         "replacement": "''",
@@ -3538,7 +6814,7 @@
     },
     {
         "file": "src/Transport/CurlTransport.php",
-        "line": 74,
+        "line": 92,
         "op": "neq-neg",
         "original": "!==",
         "replacement": "===",
@@ -3547,7 +6823,7 @@
     },
     {
         "file": "src/Transport/CurlTransport.php",
-        "line": 74,
+        "line": 92,
         "op": "bool-flip",
         "original": "false",
         "replacement": "true",
@@ -3556,7 +6832,7 @@
     },
     {
         "file": "src/Transport/CurlTransport.php",
-        "line": 75,
+        "line": 93,
         "op": "arith-plus",
         "original": "+",
         "replacement": "-",
@@ -3565,7 +6841,7 @@
     },
     {
         "file": "src/Transport/CurlTransport.php",
-        "line": 75,
+        "line": 93,
         "op": "int-plus1",
         "original": "1",
         "replacement": "2",
@@ -3574,7 +6850,7 @@
     },
     {
         "file": "src/Transport/CurlTransport.php",
-        "line": 75,
+        "line": 93,
         "op": "int-zero",
         "original": "1",
         "replacement": "0",
@@ -3633,11 +6909,11 @@
         "original": "65536",
         "replacement": "0",
         "verdict": "KILLED",
-        "note": "exit=2"
+        "note": "timeout"
     },
     {
         "file": "src/Transport/GuzzleTransport.php",
-        "line": 25,
+        "line": 26,
         "op": "str-empty",
         "original": "'http_errors'",
         "replacement": "''",
@@ -3646,7 +6922,7 @@
     },
     {
         "file": "src/Transport/GuzzleTransport.php",
-        "line": 25,
+        "line": 26,
         "op": "bool-flip",
         "original": "false",
         "replacement": "true",
@@ -3655,7 +6931,7 @@
     },
     {
         "file": "src/Transport/GuzzleTransport.php",
-        "line": 25,
+        "line": 26,
         "op": "str-empty",
         "original": "'timeout'",
         "replacement": "''",
@@ -3664,7 +6940,7 @@
     },
     {
         "file": "src/Transport/GuzzleTransport.php",
-        "line": 25,
+        "line": 26,
         "op": "int-plus1",
         "original": "30",
         "replacement": "31",
@@ -3673,7 +6949,7 @@
     },
     {
         "file": "src/Transport/GuzzleTransport.php",
-        "line": 25,
+        "line": 26,
         "op": "int-zero",
         "original": "30",
         "replacement": "0",
@@ -3682,7 +6958,7 @@
     },
     {
         "file": "src/Transport/GuzzleTransport.php",
-        "line": 32,
+        "line": 34,
         "op": "str-empty",
         "original": "'headers'",
         "replacement": "''",
@@ -3691,7 +6967,7 @@
     },
     {
         "file": "src/Transport/GuzzleTransport.php",
-        "line": 33,
+        "line": 35,
         "op": "str-empty",
         "original": "'body'",
         "replacement": "''",
@@ -3700,7 +6976,7 @@
     },
     {
         "file": "src/Transport/GuzzleTransport.php",
-        "line": 34,
+        "line": 36,
         "op": "str-empty",
         "original": "'stream'",
         "replacement": "''",
@@ -3709,7 +6985,7 @@
     },
     {
         "file": "src/Transport/GuzzleTransport.php",
-        "line": 34,
+        "line": 36,
         "op": "bool-flip",
         "original": "true",
         "replacement": "false",
@@ -3718,7 +6994,7 @@
     },
     {
         "file": "src/Transport/GuzzleTransport.php",
-        "line": 37,
+        "line": 39,
         "op": "str-empty",
         "original": "'\u4f20\u8f93\u5931\u8d25: '",
         "replacement": "''",
@@ -3727,7 +7003,7 @@
     },
     {
         "file": "src/Transport/GuzzleTransport.php",
-        "line": 42,
+        "line": 44,
         "op": "str-empty",
         "original": "', '",
         "replacement": "''",
@@ -3736,7 +7012,7 @@
     },
     {
         "file": "src/Transport/GuzzleTransport.php",
-        "line": 52,
+        "line": 54,
         "op": "not-del",
         "original": "!",
         "replacement": "",
@@ -3745,7 +7021,7 @@
     },
     {
         "file": "src/Transport/GuzzleTransport.php",
-        "line": 55,
+        "line": 57,
         "op": "rel-gt",
         "original": ">",
         "replacement": ">=",
@@ -3754,7 +7030,7 @@
     },
     {
         "file": "src/Transport/GuzzleTransport.php",
-        "line": 56,
+        "line": 58,
         "op": "str-empty",
         "original": "'\u54cd\u5e94\u4f53\u8d85\u8fc7 '",
         "replacement": "''",
@@ -3763,7 +7039,7 @@
     },
     {
         "file": "src/Transport/GuzzleTransport.php",
-        "line": 56,
+        "line": 58,
         "op": "str-empty",
         "original": "' \u5b57\u8282\u4e0a\u9650'",
         "replacement": "''",
@@ -3772,7 +7048,7 @@
     },
     {
         "file": "src/Transport/GuzzleTransport.php",
-        "line": 71,
+        "line": 73,
         "op": "str-empty",
         "original": "':'",
         "replacement": "''",
@@ -3781,7 +7057,7 @@
     },
     {
         "file": "src/Transport/GuzzleTransport.php",
-        "line": 72,
+        "line": 74,
         "op": "neq-neg",
         "original": "!==",
         "replacement": "===",
@@ -3790,7 +7066,7 @@
     },
     {
         "file": "src/Transport/GuzzleTransport.php",
-        "line": 72,
+        "line": 74,
         "op": "bool-flip",
         "original": "false",
         "replacement": "true",
@@ -3799,7 +7075,7 @@
     },
     {
         "file": "src/Transport/GuzzleTransport.php",
-        "line": 73,
+        "line": 75,
         "op": "arith-plus",
         "original": "+",
         "replacement": "-",
@@ -3808,7 +7084,7 @@
     },
     {
         "file": "src/Transport/GuzzleTransport.php",
-        "line": 73,
+        "line": 75,
         "op": "int-plus1",
         "original": "1",
         "replacement": "2",
@@ -3817,7 +7093,7 @@
     },
     {
         "file": "src/Transport/GuzzleTransport.php",
-        "line": 73,
+        "line": 75,
         "op": "int-zero",
         "original": "1",
         "replacement": "0",
@@ -3825,8 +7101,35 @@
         "note": "exit=1"
     },
     {
+        "file": "src/Transport/TransportFactory.php",
+        "line": 21,
+        "op": "not-del",
+        "original": "!",
+        "replacement": "",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Transport/TransportFactory.php",
+        "line": 21,
+        "op": "str-empty",
+        "original": "'curl'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/Transport/TransportFactory.php",
+        "line": 23,
+        "op": "str-empty",
+        "original": "'\u672a\u627e\u5230\u53ef\u7528\u4f20\u8f93\uff08ext-curl \u672a\u5b89\u88c5\uff09\uff1b\u8bf7\u542f\u7528 ext-curl \u6216\u6784\u9020\u6ce8\u5165 GuzzleTransport'",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
         "file": "src/Transport/TransportResponse.php",
-        "line": 24,
+        "line": 25,
         "op": "rel-gte",
         "original": ">=",
         "replacement": ">",
@@ -3835,7 +7138,7 @@
     },
     {
         "file": "src/Transport/TransportResponse.php",
-        "line": 24,
+        "line": 25,
         "op": "int-plus1",
         "original": "200",
         "replacement": "201",
@@ -3844,7 +7147,7 @@
     },
     {
         "file": "src/Transport/TransportResponse.php",
-        "line": 24,
+        "line": 25,
         "op": "int-zero",
         "original": "200",
         "replacement": "0",
@@ -3853,7 +7156,7 @@
     },
     {
         "file": "src/Transport/TransportResponse.php",
-        "line": 24,
+        "line": 25,
         "op": "logic",
         "original": "&&",
         "replacement": "||",
@@ -3862,7 +7165,7 @@
     },
     {
         "file": "src/Transport/TransportResponse.php",
-        "line": 24,
+        "line": 25,
         "op": "rel-lt",
         "original": "<",
         "replacement": "<=",
@@ -3871,7 +7174,7 @@
     },
     {
         "file": "src/Transport/TransportResponse.php",
-        "line": 24,
+        "line": 25,
         "op": "int-plus1",
         "original": "300",
         "replacement": "301",
@@ -3880,7 +7183,7 @@
     },
     {
         "file": "src/Transport/TransportResponse.php",
-        "line": 24,
+        "line": 25,
         "op": "int-zero",
         "original": "300",
         "replacement": "0",
@@ -3889,7 +7192,7 @@
     },
     {
         "file": "src/Transport/TransportResponse.php",
-        "line": 30,
+        "line": 32,
         "op": "eq-neg",
         "original": "===",
         "replacement": "!==",
@@ -3898,7 +7201,7 @@
     },
     {
         "file": "src/VerifyResult.php",
-        "line": 22,
+        "line": 24,
         "op": "bool-flip",
         "original": "true",
         "replacement": "false",
@@ -3907,7 +7210,7 @@
     },
     {
         "file": "src/VerifyResult.php",
-        "line": 27,
+        "line": 30,
         "op": "bool-flip",
         "original": "false",
         "replacement": "true",
@@ -3916,7 +7219,7 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 17,
+        "line": 23,
         "op": "int-plus1",
         "original": "1800",
         "replacement": "1801",
@@ -3925,16 +7228,16 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 17,
+        "line": 23,
         "op": "int-zero",
         "original": "1800",
         "replacement": "0",
         "verdict": "KILLED",
-        "note": "exit=2"
+        "note": "exit=1"
     },
     {
         "file": "src/WopClient.php",
-        "line": 18,
+        "line": 24,
         "op": "str-empty",
         "original": "'x-wop-appkey'",
         "replacement": "''",
@@ -3943,7 +7246,7 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 19,
+        "line": 25,
         "op": "str-empty",
         "original": "'x-wop-timestamp'",
         "replacement": "''",
@@ -3952,45 +7255,9 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 20,
-        "op": "str-empty",
-        "original": "'x-wop-nonce'",
-        "replacement": "''",
-        "verdict": "KILLED",
-        "note": "exit=2"
-    },
-    {
-        "file": "src/WopClient.php",
-        "line": 21,
-        "op": "str-empty",
-        "original": "'x-wop-sign'",
-        "replacement": "''",
-        "verdict": "KILLED",
-        "note": "exit=2"
-    },
-    {
-        "file": "src/WopClient.php",
-        "line": 22,
-        "op": "str-empty",
-        "original": "'x-wop-encrypt'",
-        "replacement": "''",
-        "verdict": "KILLED",
-        "note": "exit=1"
-    },
-    {
-        "file": "src/WopClient.php",
-        "line": 23,
-        "op": "str-empty",
-        "original": "'x-wop-content-digest'",
-        "replacement": "''",
-        "verdict": "KILLED",
-        "note": "exit=1"
-    },
-    {
-        "file": "src/WopClient.php",
         "line": 26,
         "op": "str-empty",
-        "original": "'\u7b7e\u540d\u9a8c\u8bc1\u5931\u8d25'",
+        "original": "'x-wop-nonce'",
         "replacement": "''",
         "verdict": "KILLED",
         "note": "exit=1"
@@ -3999,7 +7266,7 @@
         "file": "src/WopClient.php",
         "line": 27,
         "op": "str-empty",
-        "original": "'\u6458\u8981\u4e0d\u5339\u914d'",
+        "original": "'x-wop-sign'",
         "replacement": "''",
         "verdict": "KILLED",
         "note": "exit=1"
@@ -4008,7 +7275,7 @@
         "file": "src/WopClient.php",
         "line": 28,
         "op": "str-empty",
-        "original": "'\u89e3\u5bc6\u5931\u8d25'",
+        "original": "'x-wop-encrypt'",
         "replacement": "''",
         "verdict": "KILLED",
         "note": "exit=1"
@@ -4017,6 +7284,51 @@
         "file": "src/WopClient.php",
         "line": 29,
         "op": "str-empty",
+        "original": "'x-wop-content-digest'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/WopClient.php",
+        "line": 30,
+        "op": "str-empty",
+        "original": "'x-wop-request-id'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/WopClient.php",
+        "line": 33,
+        "op": "str-empty",
+        "original": "'\u7b7e\u540d\u9a8c\u8bc1\u5931\u8d25'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/WopClient.php",
+        "line": 34,
+        "op": "str-empty",
+        "original": "'\u6458\u8981\u4e0d\u5339\u914d'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/WopClient.php",
+        "line": 35,
+        "op": "str-empty",
+        "original": "'\u89e3\u5bc6\u5931\u8d25'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/WopClient.php",
+        "line": 36,
+        "op": "str-empty",
         "original": "'DEK \u62a5\u6587\u7b97\u6cd5\u4e0e\u5957\u4ef6\u4e0d\u7b26'",
         "replacement": "''",
         "verdict": "KILLED",
@@ -4024,7 +7336,7 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 31,
+        "line": 38,
         "op": "int-plus1",
         "original": "32",
         "replacement": "33",
@@ -4033,7 +7345,7 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 31,
+        "line": 38,
         "op": "int-zero",
         "original": "32",
         "replacement": "0",
@@ -4042,7 +7354,16 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 58,
+        "line": 59,
+        "op": "neq-neg",
+        "original": "!==",
+        "replacement": "===",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/WopClient.php",
+        "line": 97,
         "op": "eq-neg",
         "original": "===",
         "replacement": "!==",
@@ -4051,7 +7372,61 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 64,
+        "line": 97,
+        "op": "logic",
+        "original": "||",
+        "replacement": "&&",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/WopClient.php",
+        "line": 97,
+        "op": "eq-neg",
+        "original": "===",
+        "replacement": "!==",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/WopClient.php",
+        "line": 98,
+        "op": "str-empty",
+        "original": "'\u672a\u914d\u7f6e\u4f20\u8f93\uff0c\u65e0\u6cd5 execute'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/WopClient.php",
+        "line": 105,
+        "op": "str-empty",
+        "original": "': '",
+        "replacement": "''",
+        "verdict": "SURVIVED",
+        "note": ""
+    },
+    {
+        "file": "src/WopClient.php",
+        "line": 108,
+        "op": "not-del",
+        "original": "!",
+        "replacement": "",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/WopClient.php",
+        "line": 141,
+        "op": "eq-neg",
+        "original": "===",
+        "replacement": "!==",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/WopClient.php",
+        "line": 147,
         "op": "int-plus1",
         "original": "16",
         "replacement": "17",
@@ -4060,7 +7435,7 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 64,
+        "line": 147,
         "op": "int-zero",
         "original": "16",
         "replacement": "0",
@@ -4069,7 +7444,7 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 69,
+        "line": 152,
         "op": "logic",
         "original": "&&",
         "replacement": "||",
@@ -4078,16 +7453,7 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 69,
-        "op": "neq-neg",
-        "original": "!==",
-        "replacement": "===",
-        "verdict": "KILLED",
-        "note": "exit=2"
-    },
-    {
-        "file": "src/WopClient.php",
-        "line": 86,
+        "line": 152,
         "op": "neq-neg",
         "original": "!==",
         "replacement": "===",
@@ -4096,7 +7462,16 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 91,
+        "line": 169,
+        "op": "neq-neg",
+        "original": "!==",
+        "replacement": "===",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/WopClient.php",
+        "line": 175,
         "op": "str-empty",
         "original": "'v1/'",
         "replacement": "''",
@@ -4105,7 +7480,52 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 114,
+        "line": 194,
+        "op": "str-empty",
+        "original": "'='",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/WopClient.php",
+        "line": 194,
+        "op": "str-empty",
+        "original": "' '",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/WopClient.php",
+        "line": 194,
+        "op": "str-empty",
+        "original": "' '",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/WopClient.php",
+        "line": 195,
+        "op": "neq-neg",
+        "original": "!==",
+        "replacement": "===",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/WopClient.php",
+        "line": 199,
+        "op": "str-empty",
+        "original": "'php://stderr'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=2"
+    },
+    {
+        "file": "src/WopClient.php",
+        "line": 209,
         "op": "str-empty",
         "original": "'POST'",
         "replacement": "''",
@@ -4114,7 +7534,7 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 127,
+        "line": 222,
         "op": "eq-neg",
         "original": "===",
         "replacement": "!==",
@@ -4123,7 +7543,7 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 127,
+        "line": 222,
         "op": "str-empty",
         "original": "'/'",
         "replacement": "''",
@@ -4132,7 +7552,7 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 127,
+        "line": 222,
         "op": "str-empty",
         "original": "'POST'",
         "replacement": "''",
@@ -4141,7 +7561,7 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 147,
+        "line": 242,
         "op": "neq-neg",
         "original": "!==",
         "replacement": "===",
@@ -4150,7 +7570,7 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 149,
+        "line": 244,
         "op": "str-empty",
         "original": "'\u54cd\u5e94\u5957\u4ef6 '",
         "replacement": "''",
@@ -4159,7 +7579,7 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 149,
+        "line": 244,
         "op": "str-empty",
         "original": "' \u4e0e\u5ba2\u6237\u7aef\u914d\u7f6e '",
         "replacement": "''",
@@ -4168,7 +7588,7 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 149,
+        "line": 244,
         "op": "str-empty",
         "original": "' \u4e0d\u7b26'",
         "replacement": "''",
@@ -4177,7 +7597,7 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 155,
+        "line": 250,
         "op": "neq-neg",
         "original": "!==",
         "replacement": "===",
@@ -4186,7 +7606,7 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 158,
+        "line": 253,
         "op": "eq-neg",
         "original": "===",
         "replacement": "!==",
@@ -4195,7 +7615,7 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 161,
+        "line": 256,
         "op": "not-del",
         "original": "!",
         "replacement": "",
@@ -4204,7 +7624,7 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 161,
+        "line": 256,
         "op": "bool-flip",
         "original": "true",
         "replacement": "false",
@@ -4213,7 +7633,7 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 162,
+        "line": 257,
         "op": "str-empty",
         "original": "'x-wop-content-digest \u672a\u5217\u5165 signedHeaders\uff08I1\uff09'",
         "replacement": "''",
@@ -4222,7 +7642,7 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 164,
+        "line": 259,
         "op": "neq-neg",
         "original": "!==",
         "replacement": "===",
@@ -4231,7 +7651,7 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 165,
+        "line": 260,
         "op": "str-empty",
         "original": "'\u65e0\u54cd\u5e94\u4f53\u4e0d\u5e94\u643a\u5e26 x-wop-content-digest'",
         "replacement": "''",
@@ -4240,7 +7660,7 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 181,
+        "line": 276,
         "op": "neq-neg",
         "original": "!==",
         "replacement": "===",
@@ -4249,7 +7669,7 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 181,
+        "line": 276,
         "op": "int-plus1",
         "original": "8",
         "replacement": "9",
@@ -4258,7 +7678,7 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 181,
+        "line": 276,
         "op": "int-zero",
         "original": "8",
         "replacement": "0",
@@ -4267,7 +7687,7 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 183,
+        "line": 278,
         "op": "str-empty",
         "original": "'\u7b7e\u540d\u957f\u5ea6 '",
         "replacement": "''",
@@ -4276,7 +7696,7 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 183,
+        "line": 278,
         "op": "str-empty",
         "original": "' \u5b57\u8282\u4e0e\u5957\u4ef6 '",
         "replacement": "''",
@@ -4285,7 +7705,7 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 183,
+        "line": 278,
         "op": "str-empty",
         "original": "' \u5b9a\u957f\u4e0d\u7b26'",
         "replacement": "''",
@@ -4294,7 +7714,7 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 187,
+        "line": 282,
         "op": "str-empty",
         "original": "'/'",
         "replacement": "''",
@@ -4303,7 +7723,7 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 193,
+        "line": 288,
         "op": "not-del",
         "original": "!",
         "replacement": "",
@@ -4312,7 +7732,7 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 205,
+        "line": 300,
         "op": "not-del",
         "original": "!",
         "replacement": "",
@@ -4321,7 +7741,7 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 215,
+        "line": 310,
         "op": "not-del",
         "original": "!",
         "replacement": "",
@@ -4330,7 +7750,7 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 215,
+        "line": 310,
         "op": "logic",
         "original": "||",
         "replacement": "&&",
@@ -4339,7 +7759,7 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 215,
+        "line": 310,
         "op": "eq-neg",
         "original": "===",
         "replacement": "!==",
@@ -4348,7 +7768,7 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 221,
+        "line": 316,
         "op": "eq-neg",
         "original": "===",
         "replacement": "!==",
@@ -4357,7 +7777,16 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 230,
+        "line": 317,
+        "op": "str-empty",
+        "original": "'x-wop-encrypt \u4e3a L2 \u4f46\u7f3a\u5c11 dek \u6bb5'",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/WopClient.php",
+        "line": 325,
         "op": "eq-neg",
         "original": "===",
         "replacement": "!==",
@@ -4366,7 +7795,7 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 240,
+        "line": 335,
         "op": "not-del",
         "original": "!",
         "replacement": "",
@@ -4375,7 +7804,7 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 251,
+        "line": 346,
         "op": "eq-neg",
         "original": "===",
         "replacement": "!==",
@@ -4384,7 +7813,7 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 260,
+        "line": 355,
         "op": "eq-neg",
         "original": "===",
         "replacement": "!==",
@@ -4393,7 +7822,7 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 279,
+        "line": 374,
         "op": "eq-neg",
         "original": "===",
         "replacement": "!==",
@@ -4402,7 +7831,7 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 280,
+        "line": 375,
         "op": "str-empty",
         "original": "'\u5df2\u7b7e\u540d\u5934 '",
         "replacement": "''",
@@ -4411,7 +7840,7 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 280,
+        "line": 375,
         "op": "str-empty",
         "original": "' \u5728\u54cd\u5e94\u4e2d\u7f3a\u5931'",
         "replacement": "''",
@@ -4420,7 +7849,7 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 290,
+        "line": 385,
         "op": "bool-flip",
         "original": "true",
         "replacement": "false",
@@ -4429,7 +7858,7 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 290,
+        "line": 385,
         "op": "int-plus1",
         "original": "1000",
         "replacement": "1001",
@@ -4438,10 +7867,37 @@
     },
     {
         "file": "src/WopClient.php",
-        "line": 290,
+        "line": 385,
         "op": "int-zero",
         "original": "1000",
         "replacement": "0",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/WopGatewayResponseException.php",
+        "line": 16,
+        "op": "str-empty",
+        "original": "'WOP \u7f51\u5173\u8fd4\u56de HTTP '",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/WopGatewayResponseException.php",
+        "line": 16,
+        "op": "str-empty",
+        "original": "'\uff08\u54cd\u5e94\u4f53 '",
+        "replacement": "''",
+        "verdict": "KILLED",
+        "note": "exit=1"
+    },
+    {
+        "file": "src/WopGatewayResponseException.php",
+        "line": 16,
+        "op": "str-empty",
+        "original": "' \u5b57\u8282\uff09'",
+        "replacement": "''",
         "verdict": "KILLED",
         "note": "exit=1"
     }
