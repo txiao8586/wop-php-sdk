@@ -96,10 +96,12 @@ $draft = $client->buildRequest('POST', '/gateway/order/create', $body, 'L0',
 // or via execute(): $client->execute('POST', '/gateway/order/create', $body, 'L0', subMchId: 'PLF-SUB-001');
 ```
 
-The SDK writes `x-wop-sub-mch-id` and includes it in the `x-wop-sign` signedHeaders (leading/trailing
-whitespace trimmed; printable ASCII only, no internal whitespace, ≤128 chars). The header takes effect
-only when the gateway sub-merchant gray gate is open for the app and the app is an ISV app
-(app_type=20). Omitting it keeps the app's own identity: the header is absent and behavior is
+The SDK writes `x-wop-sub-mch-id` and includes it in the `x-wop-sign` signedHeaders (**only leading/
+trailing spaces are trimmed; any control character is rejected even at the ends**; printable ASCII
+only, no internal whitespace, ≤128 chars). The header applies only to ISV apps (app_type=20);
+**prerequisite**: the gateway must already deploy D-13 (conditional signing) — otherwise the header
+passes through as unknown and the request runs as the app's own identity, silently losing the
+sub-merchant identity. Omitting it keeps the app's own identity: the header is absent and behavior is
 byte-identical to earlier versions.
 
 ## Vector Self-Test (conformance)

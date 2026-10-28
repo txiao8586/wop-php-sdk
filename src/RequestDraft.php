@@ -11,7 +11,8 @@ namespace Wop\Sdk;
 final class RequestDraft
 {
     /**
-     * @param array<string, string> $headers 已含全部协议头（appkey/timestamp/nonce/digest/encrypt/sign）
+     * @param array<string, string> $headers 已含全部协议头（appkey/timestamp/nonce/digest/encrypt/sign，
+     *                                       以及可选的 sub-mch-id / request-id：前者入签、后者不入签）
      */
     public function __construct(
         public readonly string $method,

@@ -90,9 +90,10 @@ $draft = $client->buildRequest('POST', '/gateway/order/create', $body, 'L0',
 // 或一站式调用：$client->execute('POST', '/gateway/order/create', $body, 'L0', subMchId: 'PLF-SUB-001');
 ```
 
-SDK 自动写入 `x-wop-sub-mch-id` 并纳入 `x-wop-sign` 的 signedHeaders（首尾空白 trim 后发送；
-仅接受可打印 ASCII、无内部空白、≤128 字符）。该头仅在网关子商户灰度放行且应用为 ISV 应用
-（app_type=20）时生效；不传 = 应用自身身份，头缺席，行为与旧版逐字节一致。
+SDK 自动写入 `x-wop-sub-mch-id` 并纳入 `x-wop-sign` 的 signedHeaders（**仅首尾空格可 trim；任何
+控制字符即便在首尾也直接拒**；仅接受可打印 ASCII、无内部空白、≤128 字符）。该头仅对 ISV 应用
+（app_type=20）生效；**前置**：网关须已部署 D-13（条件入签），未部署时该头按未知头透传、请求以
+应用自身身份执行，子商户身份会静默丢失。不传 = 应用自身身份，头缺席，行为与旧版逐字节一致。
 
 ## 向量自测（conformance）
 

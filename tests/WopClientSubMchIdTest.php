@@ -113,6 +113,19 @@ final class WopClientSubMchIdTest extends VectorCase
         $this->client->buildRequest('GET', '/p', null, 'L0', 1, 'n', null, null, 'PLF SUB');
     }
 
+    /** 可打印 ASCII 边界 0x21/0x7E 合法（变异 int-plus1/rel-gt 靶点）。 */
+    public function testPrintableAsciiBoundariesAccepted(): void
+    {
+        foreach (['!', '~', '!~'] as $value) {
+            $draft = $this->client->buildRequest('GET', '/p', null, 'L0', 1, 'n', null, null, $value);
+            self::assertSame($value, $draft->header('x-wop-sub-mch-id'));
+        }
+    }
+
+    /**
+     * 注：WopException::configuration() 返回基类，category 在类型上不可观测；
+     * 本组负例只能锚定文案（A9/J2 的分类断言在此语言退化为文案锚）。
+     */
     public function testLengthLimit(): void
     {
         $len128 = str_repeat('a', 128);

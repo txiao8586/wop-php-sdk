@@ -177,6 +177,15 @@ final class WopClientTest extends VectorCase
         $this->assertSame('plain-body', $result->plaintext);
     }
 
+    /** 附录 J/J3：入向（响应/回调）不消费 x-wop-sub-mch-id——额外携带未入签的该头仍通过。 */
+    public function testInboundIgnoresUnsignedSubMchHeader(): void
+    {
+        [$headers, $wireBody] = $this->platformResponse('plain-body', 'L0', 1774340000000, 'respnonce00000000000000000000a');
+        $headers['x-wop-sub-mch-id'] = 'PLF-SUB-001'; // 签名完成后追加：未入 signedHeaders
+        $result = $this->merchantClient->verifyResponse($headers, $wireBody, self::PATH);
+        $this->assertTrue($result->ok, (string) $result->reason);
+    }
+
     public function testVerifyResponseWithoutBodyStillVerifies(): void
     {
         $draft = $this->platformClient->buildRequest('GET', self::PATH, null, 'L0', 1774340000000, 'respnonce00000000000000000000a');
